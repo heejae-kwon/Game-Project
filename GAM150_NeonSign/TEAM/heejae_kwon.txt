@@ -1,0 +1,6 @@
+Name: HeeJae Kwon
+Role: Tech Lead
+Main contributions: Overall code managing, Block movement, Particles, Level menu, Object managing
+List: FileIO, ObjectManager, LevelSelectMenu, LevelEditing, Block movement,
+      Block rotation, Button, OptionMenu, HowToMenu, ParticleManager,
+      SpecialBox, Goal, Wall, In game menu.

@@ -1,0 +1,5 @@
+Name: Guesik kim
+Role: Lead designer
+Main contributions: Physics, Interaction, Level design
+List: Arrow, Ball, Block(user), Wall, Reflection
+Personal Notes: Ball Physics is not perfect, I must study about it more and more.

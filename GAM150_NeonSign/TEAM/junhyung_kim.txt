@@ -1,0 +1,4 @@
+Name: Junhyung kim
+Role: Producer
+Main contributions: Music, Textures, Story
+List: Textures, DigipenLogo, Ending, HowTo, LevelSelect, MainMenu, Music, Story

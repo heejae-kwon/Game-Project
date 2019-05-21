@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ObjectManager">
+      <UniqueIdentifier>{ae9b1c3f-1e22-4a1b-9a55-9c2253dbd92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMOD">
+      <UniqueIdentifier>{a7f469cb-4c9d-47aa-812f-be5c45eec8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{22f60055-3007-4bd5-960f-d0c9cc4c0c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\MainMenu">
+      <UniqueIdentifier>{db564418-2670-4dbf-8126-064ccbff15f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="State\Level\Block">
+      <UniqueIdentifier>{f0f28c8e-c38a-4466-b5fe-f0075aeb824d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Ball">
+      <UniqueIdentifier>{25df77d0-4511-4a11-a01a-d890eef95251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\MyHelperFuntion">
+      <UniqueIdentifier>{f8ec3ea1-b2d3-4bf2-8e95-3fe88c2d0ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Arrow">
+      <UniqueIdentifier>{c7863f40-cbf5-47ec-af2c-4d3b960a6f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Goal">
+      <UniqueIdentifier>{cc1e51af-8cff-4030-a694-dbefcf667afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Button">
+      <UniqueIdentifier>{6b39a72a-340e-47ec-ad67-76ed8c610d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Reflection">
+      <UniqueIdentifier>{ef9784f5-d9d5-4162-a3d9-fe4da3c3c306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Play">
+      <UniqueIdentifier>{a1714caa-9b5e-4f0e-b71a-c4342d383700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\FileIO">
+      <UniqueIdentifier>{fd4e5cf6-80db-4e8e-8fb0-d868380404ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Developer">
+      <UniqueIdentifier>{0319c249-f069-4596-9c37-ef01fcbb655c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Wall">
+      <UniqueIdentifier>{4963a93a-7d77-4546-b656-dc7356d1cb9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\DigipenLogo">
+      <UniqueIdentifier>{7f95a679-47b7-44a5-b1bb-efcfc5efdb28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\TeamLogo">
+      <UniqueIdentifier>{56f6de75-ca30-4d34-9479-0f02aa7ed16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\SB">
+      <UniqueIdentifier>{8486f126-4d00-496d-acfc-f685aa9ffe3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Story">
+      <UniqueIdentifier>{d1789a10-382d-4af4-ae31-b469067af680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Option">
+      <UniqueIdentifier>{bbf9f81d-a819-48e5-89d6-6d90ac237e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Music">
+      <UniqueIdentifier>{9da77c95-7a55-4e9b-acd9-33eb5cdf64d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\HowTo">
+      <UniqueIdentifier>{769b77ad-9de7-4b5e-bdad-0dcbc7f1903c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Alpha">
+      <UniqueIdentifier>{0ce2c171-f9e4-47b2-8af0-fc6585850f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\InGameMenu">
+      <UniqueIdentifier>{a00edd28-0053-41e5-a008-016d32003882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\LevelSelect">
+      <UniqueIdentifier>{10a1e2c3-a471-43ca-b347-8ed67bed9ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleManager">
+      <UniqueIdentifier>{df0ad92a-3cf8-4262-a26f-0ed38dfc7147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Level\Building">
+      <UniqueIdentifier>{698266c2-d07c-4671-96ab-988bf7e724d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DigipenLogo.cpp">
+      <Filter>State\DigipenLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TeamLogo.cpp">
+      <Filter>State\TeamLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>State\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ball.cpp">
+      <Filter>State\Level\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Block.cpp">
+      <Filter>State\Level\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyHelper.cpp">
+      <Filter>State\Level\MyHelperFuntion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Arrow.cpp">
+      <Filter>State\Level\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goal.cpp">
+      <Filter>State\Level\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>State\Level\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Reflection.cpp">
+      <Filter>State\Level\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Play.cpp">
+      <Filter>State\Level\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectManager.cpp">
+      <Filter>ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileIO.cpp">
+      <Filter>State\Level\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Developer.cpp">
+      <Filter>State\Level\Developer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wall.cpp">
+      <Filter>State\Level\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\common.cpp">
+      <Filter>FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\common_platform.cpp">
+      <Filter>FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Music.cpp">
+      <Filter>State\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SB.cpp">
+      <Filter>State\Level\SB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Story.cpp">
+      <Filter>State\Story</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Option.cpp">
+      <Filter>State\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HowTo.cpp">
+      <Filter>State\HowTo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InGameMenu.cpp">
+      <Filter>State\Level\InGameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelSelect.cpp">
+      <Filter>State\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleManager.cpp">
+      <Filter>ParticleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Building.cpp">
+      <Filter>State\Level\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ending.cpp">
+      <Filter>State\Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\play_stream.cpp">
+      <Filter>FMOD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DigipenLogo.h">
+      <Filter>State\DigipenLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TeamLogo.h">
+      <Filter>State\TeamLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>State\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ball.h">
+      <Filter>State\Level\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Data.h">
+      <Filter>State\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Block.h">
+      <Filter>State\Level\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MyHelper.h">
+      <Filter>State\Level\MyHelperFuntion</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Arrow.h">
+      <Filter>State\Level\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goal.h">
+      <Filter>State\Level\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>State\Level\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Reflection.h">
+      <Filter>State\Level\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Play.h">
+      <Filter>State\Level\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectManager.h">
+      <Filter>ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileIO.h">
+      <Filter>State\Level\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Developer.h">
+      <Filter>State\Level\Developer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wall.h">
+      <Filter>State\Level\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common_platform.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Music.h">
+      <Filter>State\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SB.h">
+      <Filter>State\Level\SB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameTypes.h">
+      <Filter>ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Story.h">
+      <Filter>State\Story</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Option.h">
+      <Filter>State\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FmodData.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HowTo.h">
+      <Filter>State\HowTo</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InGameMenu.h">
+      <Filter>State\Level\InGameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelSelect.h">
+      <Filter>State\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleManager.h">
+      <Filter>ParticleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Building.h">
+      <Filter>State\Level\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ending.h">
+      <Filter>State\Alpha</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
