@@ -1,0 +1,62 @@
+class Levels : ZilchComponent
+{
+      var TimeSinceLastSpawn : Real = 0.0;
+      
+     var SpawnTime : Real = 3.0;
+    
+    
+    var Next : Real = 0.0;
+    
+    [Property]
+    var SpawnNextLevel : Real3 = Real3();
+    
+    [Property]
+    var ThisSpaceLevel : Integer = 0;
+    
+        var Digipen : Level = Level.Find("Digipen");
+        var Peekaboo : Level = Level.Find("Peekaboo");
+        var Revenant : Level = Level.Find("Revenant");
+        var ButtonInfo : Level = Level.Find("ButtonInfo");
+        var GameEnd : Level = Level.Find("GameEnd"); 
+        var Lose : Level = Level.Find("Lose");
+        var GameLv1 : Level = Level.Find("GameLv1");
+        var Credit : Level = Level.Find("Credit");
+
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        if (this.Space.LevelSettings.HP != null && this.Space.LevelSettings.HP.BossHP <= 0)
+        {
+         this.TimeSinceLastSpawn += event.Dt;
+        }
+        
+        if(this.Space.LevelSettings.HP != null && this.TimeSinceLastSpawn >= this.SpawnTime)
+        {
+        
+         var spawnPosition = this.SpawnNextLevel;
+
+            
+            var archetypeToSpawn = Archetype.NextLV;
+            
+            var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            this.TimeSinceLastSpawn = -100;
+        }
+        
+        
+        this.Next += event.Dt;
+        
+        if ((this.Next > 2.5 || Zero.Keyboard.KeyIsPressed(Keys.Space)) && this.ThisSpaceLevel == 0)
+        {
+            this.Space.LoadLevel(this.Peekaboo);
+        }
+        else if ((this.Next > 2.5 || Zero.Keyboard.KeyIsPressed(Keys.Space))&& this.ThisSpaceLevel == 1)
+        {
+            this.Space.LoadLevel(this.Revenant);
+        }
+    }
+}

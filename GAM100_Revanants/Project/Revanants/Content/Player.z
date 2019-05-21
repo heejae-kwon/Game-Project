@@ -1,0 +1,121 @@
+class Player : ZilchComponent
+{
+    /*player1 = 1, Player2 = 2*/
+    [Property]
+    var Player : Integer = 0;
+    
+    [Property]
+    var RespawnTime : Real = 0;
+     [Property]
+    var RespawnStart : Integer = 0;
+    
+
+    var Invincible : Real = 0;
+
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Owner, Events.CollisionStarted, this.OnCollisionStarted);
+        Zero.Connect(this.Owner, Events.CollisionEnded, this.OnCollisionEnded);
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+       
+        if (this.Owner.Player.Player == 1)
+        {
+        var startPosition = this.Space.LevelSettings.LevelVars.PlayerPosition1;
+        this.Owner.Transform.Translation = startPosition;
+        }
+        else if (this.Owner.Player.Player == 2)
+        {
+        var startPosition = this.Space.LevelSettings.LevelVars.PlayerPosition2;
+        this.Owner.Transform.Translation = startPosition;
+        }
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        if (this.Owner.Player.RespawnStart == 1)
+        {
+        this.Owner.Player.RespawnTime += event.Dt;
+        
+        }
+        
+        if (this.Owner.Player.RespawnTime > 1.5 && this.Owner.Player.RespawnTime < 2 && this.Owner.Player.Player == 1)
+        {
+        this.Owner.Transform.Translation = this.Space.LevelSettings.LevelVars.PlayerPosition1;
+         this.Owner.Player.RespawnTime = 0;
+         this.Owner.Player.RespawnStart = 2;
+        Console.WriteLine("0000000");
+        }
+        
+        else if (this.Owner.Player.RespawnTime > 1.5 && this.Owner.Player.RespawnTime < 2 && this.Owner.Player.Player == 2)
+        {
+        this.Owner.Transform.Translation = this.Space.LevelSettings.LevelVars.PlayerPosition2;
+       this.Owner.Player.RespawnTime = 0;
+       this.Owner.Player.RespawnStart = 2;
+        Console.WriteLine("0000000");
+        }
+        
+        if (this.Owner.Player.RespawnStart == 2)
+        {
+        this.Owner.Player.Invincible += event.Dt;
+        }
+        
+             if (this.Owner.Player.Invincible > 2 && this.Owner.Player.Invincible < 3 && this.Owner.Player.Player == 1)
+        {
+        Console.WriteLine("11111111");
+         this.Owner.Player.RespawnStart = 0;
+        
+        this.Owner.Player.Invincible = 0;
+        }
+        
+        else if (this.Owner.Player.Invincible > 2 && this.Owner.Player.Invincible < 3 && this.Owner.Player.Player == 2)
+        {
+       Console.WriteLine("11111111");
+       this.Owner.Player.RespawnStart = 0;
+       
+       this.Owner.Player.Invincible = 0;
+        }
+     
+        
+
+    }
+       function OnCollisionStarted(event : CollisionEvent)
+{
+    var otherObject = event.OtherObject;
+
+        if (otherObject.Attacks != null && otherObject.Attacks.PlayerAttacks == 0 && this.Owner.Player.Player == 1 && this.Owner.Player.RespawnStart == 0)
+        {
+            
+           this.Owner.Player.RespawnStart = 1; /*Dead state*/
+           this.Space.LevelSettings.HP.HP -= otherObject.Attacks.Damage;
+            if (otherObject.ArchetypeName != "Boss")
+           {
+               otherObject.Destroy();
+           } 
+            
+        }
+        
+        else if (otherObject.Attacks != null && otherObject.Attacks.PlayerAttacks == 0 && this.Owner.Player.Player == 2 && this.Owner.Player.RespawnStart == 0)
+        {
+            
+           this.Owner.Player.RespawnStart = 1; /*Dead state*/
+           this.Space.LevelSettings.HP.HP -= otherObject.Attacks.Damage;
+           if (otherObject.ArchetypeName != "Boss")
+           {
+               otherObject.Destroy();
+           } 
+        }
+        
+
+}
+
+function OnCollisionEnded(event : CollisionEvent)
+{
+    var otherObject = event.OtherObject;
+        if (otherObject.SavePoint != null)
+        {
+        this.Owner.Transform.Translation = this.Owner.Transform.Translation + Real3 (0, 40, 0);
+        }
+
+}
+}

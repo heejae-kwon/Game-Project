@@ -1,0 +1,31 @@
+class UserLife : ZilchComponent
+{
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        if (this.Owner.ArchetypeName == "Hit1" && this.Space.LevelSettings.HP.HP == 4)
+        {
+        this.Owner.Destroy();
+        }
+        else if (this.Owner.ArchetypeName == "Hit2" && this.Space.LevelSettings.HP.HP == 3)
+        {
+        this.Owner.Destroy();
+        }
+        else if (this.Owner.ArchetypeName == "Hit3" && this.Space.LevelSettings.HP.HP == 2)
+        {
+        this.Owner.Destroy();
+        }
+        else if (this.Owner.ArchetypeName == "Hit4" && this.Space.LevelSettings.HP.HP == 1)
+        {
+        this.Owner.Destroy();
+        }
+        else if (this.Owner.ArchetypeName == "Hit5" && this.Space.LevelSettings.HP.HP == 0)
+        {
+        this.Owner.Destroy();
+        }
+    }
+}

@@ -1,0 +1,47 @@
+class Boss : ZilchComponent
+{
+    var Hurt : Integer = 0;
+       var CreatedBall : Cog = null;
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+        Zero.Connect(this.Owner, Events.CollisionStarted, this.OnCollisionStarted);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        if (this.Space.LevelSettings.HP.BossHP <= 0)
+    {
+         
+    this.Owner.Destroy();
+    }
+}
+      
+    
+    function OnCollisionStarted(event : CollisionEvent)
+{
+    var otherObject = event.OtherObject;
+    
+    if (otherObject.Attacks != null && otherObject.Attacks.PlayerAttacks == 1 && this.Space.LevelSettings.PT.Particle== 0)
+    {
+         this.Space.SoundSpace.PlayCue(SoundCue.HitSound);
+                    var spawnPosition = otherObject.Transform.Translation + Real3(0, 0, 10);
+            // Find the Ball archetype:
+    var archetypeToSpawn = Archetype.BossParticle;
+            
+    // Pass the archetype and position to the Space to make our object
+    this.CreatedBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+        
+        this.Space.LevelSettings.PT.Particle = 1;
+    
+    this.Hurt += 1;
+    
+   this.Space.LevelSettings.HP.BossHP -= otherObject.Attacks.Damage;
+   Console.WriteLine(this.Space.LevelSettings.HP.BossHP);
+   otherObject.Destroy();
+   
+    }
+    
+}
+}

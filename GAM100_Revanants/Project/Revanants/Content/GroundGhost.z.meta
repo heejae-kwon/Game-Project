@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "GroundGhost",
+		uint64 ResourceId = 56c93dcd33a69948,
+	},
+},

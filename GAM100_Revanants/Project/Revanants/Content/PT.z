@@ -1,0 +1,22 @@
+class PT : ZilchComponent
+{
+    var Particle : Integer = 0;
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        
+        if (Zero.Keyboard.KeyIsDown(Keys.NumPad8))
+        {
+        this.Space.TimeSpace.TimeScale += event.Dt * 0.1;
+        }
+        else if (Zero.Keyboard.KeyIsDown(Keys.NumPad5) &&this.Space.TimeSpace.TimeScale > 1)
+        {
+        this.Space.TimeSpace.TimeScale -= event.Dt * 0.1;
+        }
+    }
+}

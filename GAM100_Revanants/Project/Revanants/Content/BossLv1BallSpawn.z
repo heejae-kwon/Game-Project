@@ -1,0 +1,177 @@
+class BossLv1BallSpawn : ZilchComponent
+{
+
+    [Property]
+    var WhatToSpawn : Archetype;
+
+    [Property]
+    var SpawnTime : Real = 3.0;
+    
+    [Property]
+    var SpawnTime2 : Real = 4.0;
+
+    var TimeSinceLastSpawn : Real = -5.0;
+    
+    var TimeSinceLastSpawn2 : Real = -5.0;
+
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        this.TimeSinceLastSpawn += event.Dt;
+        
+        this.TimeSinceLastSpawn2 += event.Dt;
+
+        
+        
+        if (this.TimeSinceLastSpawn > this.SpawnTime && this.Owner.GameLv1.MovementTime < 33 && this.Owner.GameLv1.MovementTime >= 5)
+        {
+            var spawnPosition = this.Owner.Transform.Translation + Real3(0, -4, -1);
+        
+            var archetypeToSpawn = Archetype.Ball;
+            
+            var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            
+            createdBall.RigidBody.Velocity = Real3(0, -20, 0);
+           
+            this.TimeSinceLastSpawn = 0.0;
+            
+        }
+        if (this.TimeSinceLastSpawn2 > this.SpawnTime2 && this.Owner.GameLv1.MovementTime < 69 && this.Owner.GameLv1.MovementTime >= 68)
+        {
+            Console.WriteLine(this.TimeSinceLastSpawn2);
+            
+            var spawnPosition = this.Owner.Transform.Translation + Real3(-5.5, -3.5, -1);
+            var spawnPosition2 = this.Owner.Transform.Translation + Real3(-5.5, 3.5, -1);
+            var spawnPosition3 = this.Owner.Transform.Translation + Real3(0, -6.5, -1);
+            var spawnPosition4 = this.Owner.Transform.Translation + Real3(5.5, -3.5, -1);
+             var spawnPosition5 = this.Owner.Transform.Translation + Real3(5.5, 3.5, -1);
+             var spawnPosition6 = this.Owner.Transform.Translation + Real3(0, 6.5, -1);
+            
+             
+            var archetypeToSpawn = Archetype.Ball;
+            
+            var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            var createdBall2 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition2);
+            var createdBall3 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition3);
+            var createdBall4 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition4);
+            var createdBall5 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition5);
+            var createdBall6 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition6);
+
+            
+     
+             createdBall.RigidBody.Velocity = Real3(-5.5*3, -3.5*3, 0);
+             createdBall2.RigidBody.Velocity = Real3(-5.5*3, 3.5*3, 0);
+             createdBall3.RigidBody.Velocity = Real3(0, -6.5*3, 0);
+             createdBall4.RigidBody.Velocity = Real3(5.5*3, -3.5*3, 0);
+             createdBall5.RigidBody.Velocity = Real3(5.5*3, 3.5*3, 0);
+            createdBall6.RigidBody.Velocity = Real3(0, 6.5*3, 0);
+            
+            this.TimeSinceLastSpawn2 = 0.0;
+         
+             
+            
+        }
+        else if (this.TimeSinceLastSpawn2 > this.SpawnTime2 && this.Owner.GameLv1.MovementTime < 73 && this.Owner.GameLv1.MovementTime >= 72)
+        {
+            Console.WriteLine(this.TimeSinceLastSpawn2);
+                    var spawnPosition = this.Owner.Transform.Translation + Real3(-3.5, -5.5, -1);
+            var spawnPosition2 = this.Owner.Transform.Translation + Real3(-3.5, 5.5, -1);
+            var spawnPosition3 = this.Owner.Transform.Translation + Real3(-6.5, 0, -1);
+            var spawnPosition4 = this.Owner.Transform.Translation + Real3(3.5, -5.5, -1);
+             var spawnPosition5 = this.Owner.Transform.Translation + Real3(3.5, 5.5, -1);
+             var spawnPosition6 = this.Owner.Transform.Translation + Real3(6.5, 0, -1);
+            
+             
+            var archetypeToSpawn = Archetype.Ball;
+            
+            var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            var createdBall2 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition2);
+            var createdBall3 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition3);
+            var createdBall4 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition4);
+            var createdBall5 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition5);
+            var createdBall6 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition6);
+
+            
+     
+             createdBall.RigidBody.Velocity = Real3(-3.5*3, -5.5*3, 0);
+             createdBall2.RigidBody.Velocity = Real3(-3.5*3, 5.5*3, 0);
+             createdBall3.RigidBody.Velocity = Real3(-6.5*3, 0, 0);
+             createdBall4.RigidBody.Velocity = Real3(3.5*3, -5.5*3, 0);
+             createdBall5.RigidBody.Velocity = Real3(3.5*3, 5.5*3, 0);
+            createdBall6.RigidBody.Velocity = Real3(6.5*3, 0, 0);
+            
+            this.TimeSinceLastSpawn2 = 0.0;
+        }
+              else if (this.TimeSinceLastSpawn2 > this.SpawnTime2 && this.Owner.GameLv1.MovementTime < 77 && this.Owner.GameLv1.MovementTime >= 76)
+        {
+            Console.WriteLine(this.TimeSinceLastSpawn2);
+            
+            var spawnPosition = this.Owner.Transform.Translation + Real3(-5.5, -3.5, -1);
+            var spawnPosition2 = this.Owner.Transform.Translation + Real3(-5.5, 3.5, -1);
+            var spawnPosition3 = this.Owner.Transform.Translation + Real3(0, -6.5, -1);
+            var spawnPosition4 = this.Owner.Transform.Translation + Real3(5.5, -3.5, -1);
+             var spawnPosition5 = this.Owner.Transform.Translation + Real3(5.5, 3.5, -1);
+             var spawnPosition6 = this.Owner.Transform.Translation + Real3(0, 6.5, -1);
+            
+             
+            var archetypeToSpawn = Archetype.Ball;
+            
+            var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            var createdBall2 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition2);
+            var createdBall3 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition3);
+            var createdBall4 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition4);
+            var createdBall5 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition5);
+            var createdBall6 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition6);
+
+            
+     
+             createdBall.RigidBody.Velocity = Real3(-5.5*3, -3.5*3, 0);
+             createdBall2.RigidBody.Velocity = Real3(-5.5*3, 3.5*3, 0);
+             createdBall3.RigidBody.Velocity = Real3(0, -6.5*3, 0);
+             createdBall4.RigidBody.Velocity = Real3(5.5*3, -3.5*3, 0);
+             createdBall5.RigidBody.Velocity = Real3(5.5*3, 3.5*3, 0);
+            createdBall6.RigidBody.Velocity = Real3(0, 6.5*3, 0);
+            
+            this.TimeSinceLastSpawn2 = 0.0;
+         
+             
+            
+        }
+          else if (this.TimeSinceLastSpawn2 > this.SpawnTime2 && this.Owner.GameLv1.MovementTime < 81 && this.Owner.GameLv1.MovementTime >= 80)
+        {
+            Console.WriteLine(this.TimeSinceLastSpawn2);
+                    var spawnPosition = this.Owner.Transform.Translation + Real3(-3.5, -5.5, -1);
+            var spawnPosition2 = this.Owner.Transform.Translation + Real3(-3.5, 5.5, -1);
+            var spawnPosition3 = this.Owner.Transform.Translation + Real3(-6.5, 0, -1);
+            var spawnPosition4 = this.Owner.Transform.Translation + Real3(3.5, -5.5, -1);
+             var spawnPosition5 = this.Owner.Transform.Translation + Real3(3.5, 5.5, -1);
+             var spawnPosition6 = this.Owner.Transform.Translation + Real3(6.5, 0, -1);
+            
+             
+            var archetypeToSpawn = Archetype.Ball;
+            
+            var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            var createdBall2 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition2);
+            var createdBall3 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition3);
+            var createdBall4 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition4);
+            var createdBall5 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition5);
+            var createdBall6 = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition6);
+
+            
+     
+             createdBall.RigidBody.Velocity = Real3(-3.5*3, -5.5*3, 0);
+             createdBall2.RigidBody.Velocity = Real3(-3.5*3, 5.5*3, 0);
+             createdBall3.RigidBody.Velocity = Real3(-6.5*3, 0, 0);
+             createdBall4.RigidBody.Velocity = Real3(3.5*3, -5.5*3, 0);
+             createdBall5.RigidBody.Velocity = Real3(3.5*3, 5.5*3, 0);
+            createdBall6.RigidBody.Velocity = Real3(6.5*3, 0, 0);
+            
+            this.TimeSinceLastSpawn2 = 0.0;
+        }
+        
+    }
+}

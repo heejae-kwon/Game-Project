@@ -1,0 +1,70 @@
+class ItemEffect : ZilchComponent
+{
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+        Zero.Connect(this.Owner, Events.CollisionStarted, this.OnCollisionStarted);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+    }
+    
+     function OnCollisionStarted(event : CollisionEvent)
+        {
+        var otherObject = event.OtherObject;
+        if (otherObject.Player != null)
+        {
+         if (this.Space.LevelSettings.HP.HP == 4)
+        {
+        this.Space.LevelSettings.HP.HP += 1;
+         var spawnPosition = Real3(-20, -1, 20);
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Hit1;
+            
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+        }
+                else if (this.Space.LevelSettings.HP.HP == 3)
+        {
+        this.Space.LevelSettings.HP.HP += 1;
+         var spawnPosition = Real3(-10, 0.5, 20);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Hit2;
+            
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+        }
+                        else if (this.Space.LevelSettings.HP.HP == 2)
+        {
+        this.Space.LevelSettings.HP.HP += 1;
+         var spawnPosition = Real3(0, 2, 20);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Hit3;
+            
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+        }
+                                else if (this.Space.LevelSettings.HP.HP == 1)
+        {
+        this.Space.LevelSettings.HP.HP += 1;
+         var spawnPosition = Real3(10, 0.5, 20);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Hit4;
+            
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+        }
+        this.Owner.Destroy();
+        this.Space.LevelSettings.ItemSpawn.ItemSpawnTime = 0;
+        this.Space.LevelSettings.ItemSpawn.Allow = 1;
+        }
+        }
+}

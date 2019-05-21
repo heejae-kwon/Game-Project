@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "HP_Bar",
+		uint64 ResourceId = 56b8e5dc6aae3d91,
+	},
+},

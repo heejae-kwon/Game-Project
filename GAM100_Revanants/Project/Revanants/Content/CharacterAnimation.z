@@ -1,0 +1,100 @@
+class CharacterAnimation : ZilchComponent
+{
+    [Property]
+    var PlayerStand : SpriteSource = null;
+
+    [Property]
+    var PlayerWalk : SpriteSource = null;
+
+    [Property]
+    var PlayerJump : SpriteSource = null;
+    
+    [Property]
+    var PlayerHurt : SpriteSource = null;
+    
+    
+
+   function Initialize(init : CogInitializer)
+  {
+      Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+   
+  }
+
+  function OnLogicUpdate(event : UpdateEvent)
+  {
+      // standing state
+if(this.Owner.Sprite.SpriteSource == this.PlayerStand)
+{
+    if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.LeftKey) || Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.RightKey))
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerWalk;
+    }
+
+    if(Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.JumpKey))
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerJump;
+    }
+    
+
+    
+    if(this.Owner.Player.RespawnStart == 1)
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerHurt;
+    }
+    
+ 
+}
+      // walking state
+else if(this.Owner.Sprite.SpriteSource == this.PlayerWalk)
+{
+    if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.LeftKey) == false && Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.RightKey) == false)
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerStand;
+    }
+
+    if(Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.JumpKey))
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerJump;
+    }
+    
+
+    
+      if(this.Owner.Player.RespawnStart == 1)
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerHurt;
+    }
+}
+
+      // jumping state
+else if(this.Owner.Sprite.SpriteSource == this.PlayerJump)
+{
+    if(this.Owner.SweptController.Grounded)
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerStand;
+    }
+    
+
+    
+    if(this.Owner.Player.RespawnStart == 1)
+    {
+        this.Owner.Sprite.SpriteSource = this.PlayerHurt;
+    }
+}
+
+    // stun state
+else if (this.Owner.Sprite.SpriteSource == this.PlayerHurt)
+        {
+        
+        if(this.Owner.Player.RespawnStart != 1)
+        {
+        this.Owner.Sprite.SpriteSource = this.PlayerStand;
+        } 
+        
+        }
+
+
+        
+  }
+
+
+}

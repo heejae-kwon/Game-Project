@@ -1,0 +1,101 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Boss1",
+	},
+	Archetyped = 
+	{
+		string Name = "5628cf8982e1c771:Boss",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, -25, 15],
+		Vec3 Scale = [10, 10, 30],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		bool Visible = true,
+		bool VisibilityCulling = true,
+		bool VisibilityEvents = true,
+		bool CastShadows = false,
+		Vec4 Color = [1, 1, 1, 1],
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+		string SpriteSource = "5683e37969988599:Anie22",
+		bool RenderMask = false,
+		bool FlipX = false,
+		bool FlipY = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+	},
+	Boss = 
+	{
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+		string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+		Vec3 Offset = [0, 0, -0.100000001],
+		Vec3 Size = [0.474999994, 0.474999994, 0.5],
+	},
+	RigidBody = 
+	{
+		bool Static = true,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = false,
+		bool Mode2D = true,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	Attacks = 
+	{
+		float PlayerAttacks = 0,
+		float StunCoolTime = 2,
+		int Damage = 1,
+		int GroundDestroy = 0,
+	},
+	GameLv1 = 
+	{
+		float MovementTime = -4,
+	},
+	Area = 
+	{
+		Vec2 Size = [1, 1],
+		Location Origin = Center,
+	},
+	BossLv1BallSpawn = 
+	{
+		string WhatToSpawn = "",
+		float SpawnTime = 0.699999988,
+		float SpawnTime2 = 1,
+	},
+	BossAnimation = 
+	{
+		string BossStand = "5683e37969988599:Anie22",
+		string BossStand1 = "560d853c04201f33:Ani1111",
+		string BossStand2 = "560d852538f3c950:Ani2222",
+		string BossStand3 = "560d854e3e990e8a:Ani3333",
+		string BossCharge = "560d858f2bac82fc:dash",
+		string BossCharge1 = "560d858f2bacc3b2:dash1",
+		string BossCharge2 = "560d858f2bacea7a:dash2",
+		string BossCharge3 = "560d858f2bd31771:dash3",
+		string BossHurt = "5683dc7253a40510:hit2",
+		string BossHurt1 = "560d858f2bd33e0e:hithit1",
+		string BossHurt2 = "560d858f2bd2af65:hithit2",
+		string BossHurt3 = "560d858f2bd2d307:hithit3",
+	},
+},

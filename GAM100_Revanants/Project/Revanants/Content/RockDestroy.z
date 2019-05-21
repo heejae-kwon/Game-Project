@@ -1,0 +1,41 @@
+class RockDestroy : ZilchComponent
+{
+       
+  
+    
+    [Property]
+	var StartPosition: Real3 = Real3();
+	
+	[Property]
+	var DestroyLength : Integer = 5;
+	
+    [Dependency]
+	var Transform: Transform = null;
+    
+    function Initialize(init : CogInitializer)
+    {
+     
+
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+		this.StartPosition = this.Owner.Transform.Translation;
+    }
+
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+
+            
+
+        
+
+        
+    var displacement = this.Owner.Transform.Translation - this.StartPosition;
+	
+	if (Math.Length(displacement) >= this.DestroyLength)
+	{
+     this.Owner.Destroy();
+	}    
+     
+        
+    }
+}

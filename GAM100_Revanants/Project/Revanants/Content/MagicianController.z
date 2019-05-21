@@ -1,0 +1,222 @@
+class MagicianController : ZilchComponent
+{    
+    [Property]
+    var RockSpawnTime : Real = 1.0;
+    
+    var RockTimeSinceLastSpawn : Real = 0.0;
+    
+    var ChargeSoundOn : Integer = 0;
+
+
+    
+    var Charge : Real = 0;
+  
+    
+    
+    
+    
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+
+
+
+
+
+
+   
+   function OnLogicUpdate(event : UpdateEvent)
+{       
+
+  
+if (this.Owner.Player.RespawnStart != 1)
+{
+
+        /*SkillStart*/
+  
+        this.RockTimeSinceLastSpawn += event.Dt;
+        // When space key is pressed
+        
+        if(Zero.Keyboard.KeyIsUp(this.Owner.KeySetting.UpKey) && Zero.Keyboard.KeyIsUp(this.Owner.KeySetting.DownKey) && Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.AttackKey) && this.Owner.Sprite.FlipX == false && this.RockTimeSinceLastSpawn > this.RockSpawnTime )
+        {
+            this.Space.SoundSpace.PlayCue(SoundCue.BasicAttack);
+            // Spawn at this object's current position
+            var spawnPosition = this.Owner.Transform.Translation + Real3(1.5, 0, 10);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Rock;
+            
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            
+            createdBall.RigidBody.Velocity = Real3(20, 0, 0);
+          
+                
+                this.RockTimeSinceLastSpawn = 0.0;
+                
+                this.Charge = 0;
+        }
+        
+          else if(Zero.Keyboard.KeyIsUp(this.Owner.KeySetting.UpKey) && Zero.Keyboard.KeyIsUp(this.Owner.KeySetting.DownKey) && Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.AttackKey) &&  this.Owner.Sprite.FlipX == true && this.RockTimeSinceLastSpawn > this.RockSpawnTime)
+        {
+            this.Space.SoundSpace.PlayCue(SoundCue.BasicAttack);
+            // Spawn at this object's current position
+            var spawnPosition = this.Owner.Transform.Translation + Real3(-1.5, 0, 10);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Rock;
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            
+            createdBall.RigidBody.Velocity = Real3(-20, 0, 0);
+          
+                this.RockTimeSinceLastSpawn = 0.0;
+                
+                this.Charge = 0;
+        }
+             else if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.UpKey) && Zero.Keyboard.KeyIsUp(this.Owner.KeySetting.DownKey) && Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.AttackKey) && this.Owner.Sprite.FlipX == false && this.RockTimeSinceLastSpawn > this.RockSpawnTime )
+        {
+            this.Space.SoundSpace.PlayCue(SoundCue.BasicAttack);
+            // Spawn at this object's current position
+            var spawnPosition = this.Owner.Transform.Translation + Real3(1.5, 1.5, 10);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Rock;
+            
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            
+            createdBall.RigidBody.Velocity = Real3(15, 8, 0);
+          
+                
+                this.RockTimeSinceLastSpawn = 0.0;
+                
+                this.Charge = 0;
+        }
+        
+          else if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.UpKey) && Zero.Keyboard.KeyIsUp(this.Owner.KeySetting.DownKey) && Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.AttackKey) && this.Owner.Sprite.FlipX == true && this.RockTimeSinceLastSpawn > this.RockSpawnTime)
+        {
+            this.Space.SoundSpace.PlayCue(SoundCue.BasicAttack);
+            // Spawn at this object's current position
+            var spawnPosition = this.Owner.Transform.Translation + Real3(-1.5, 1.5, 10);
+
+            // Find the Ball archetype:
+            var archetypeToSpawn = Archetype.Rock;
+
+            // Pass the archetype and position to the Space to make our object
+        var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            
+            createdBall.RigidBody.Velocity = Real3(-15, 8, 0);
+          
+                this.RockTimeSinceLastSpawn = 0.0;
+                
+                this.Charge = 0;
+        }
+        
+        
+        
+        
+        
+        
+        
+        else if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.AttackKey) && this.Charge < 10)
+        {
+           this.Charge += event.Dt*9;
+           
+        if (this.ChargeSoundOn == 0 && this.Charge >= 2)
+            {
+               this.Space.SoundSpace.PlayCue(SoundCue.ChargeSound);
+               this.ChargeSoundOn = 1;
+            }
+            
+               Console.WriteLine(this.Charge);
+           
+        }        
+
+       
+        
+    else  if(Zero.Keyboard.KeyIsReleased(this.Owner.KeySetting.AttackKey) &&  this.Owner.Sprite.FlipX == false && this.Charge >= 10)
+        {
+         
+           if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.UpKey))
+           {
+            var spawnPosition = this.Owner.Transform.Translation + Real3(3, 3, 10);
+             var archetypeToSpawn = Archetype.RockCharge;
+             var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            createdBall.RigidBody.Velocity = Real3(15, 8, 0);
+             this.Space.SoundSpace.PlayCue(SoundCue.ChargeShot);
+            }
+            else
+            {
+            var spawnPosition = this.Owner.Transform.Translation + Real3(3, 0, 10);
+             var archetypeToSpawn = Archetype.RockCharge;
+            // Find the Ball archetype:
+             var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+             createdBall.RigidBody.Velocity = Real3(20, 0, 0);
+             this.Space.SoundSpace.PlayCue(SoundCue.ChargeShot);
+            }
+        }
+  
+             
+        else if(Zero.Keyboard.KeyIsReleased(this.Owner.KeySetting.AttackKey) &&  this.Owner.Sprite.FlipX == true && this.Charge >= 10)
+        {
+           
+           if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.UpKey))
+           {
+            var spawnPosition = this.Owner.Transform.Translation + Real3(-3, 3, 10);
+             var archetypeToSpawn = Archetype.RockCharge;
+             var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            createdBall.RigidBody.Velocity = Real3(-15, 8, 0);
+             this.Space.SoundSpace.PlayCue(SoundCue.ChargeShot);
+            }
+            else
+            {
+            var spawnPosition = this.Owner.Transform.Translation + Real3(-3, 0, 10);
+             var archetypeToSpawn = Archetype.RockCharge;
+            // Find the Ball archetype:
+             var createdBall = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+             createdBall.RigidBody.Velocity = Real3(-20, 0, 0);
+             this.Space.SoundSpace.PlayCue(SoundCue.ChargeShot);
+            }
+           
+           
+            // Pass the archetype and position to the Space to make our objec
+    
+        }
+                      if(Zero.Keyboard.KeyIsReleased(this.Owner.KeySetting.AttackKey))
+             {
+                 Console.WriteLine("Azeros");
+                 this.ChargeSoundOn = 0;
+                 this.Charge = 0;
+             }
+        
+        
+      
+    
+
+    
+    
+    /*SkillEnd*/
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+
+}
+}

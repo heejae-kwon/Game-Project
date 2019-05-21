@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "WalkAni1",
+		uint64 ResourceId = 5683d1d2bd358f38,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 57,
+		uint FrameSizeY = 56,
+		uint FrameCount = 4,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 28,
+		float OriginY = 28,
+		float PixelsPerUnit = 18,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

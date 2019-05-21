@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "ChargeAni",
+		uint64 ResourceId = 564d68a04286e17d,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 156,
+		uint FrameSizeY = 156,
+		uint FrameCount = 4,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 78,
+		float OriginY = 78,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

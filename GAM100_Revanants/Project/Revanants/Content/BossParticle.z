@@ -1,0 +1,26 @@
+class BossParticle : ZilchComponent
+{
+    var ParticleTime : Real = 0;
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+                if (this.Space.LevelSettings.PT.Particle  == 1)
+        {
+        this.ParticleTime += event.Dt;
+        
+        }
+        Console.WriteLine(this.ParticleTime);
+        
+        if (this.ParticleTime >= 0.2)
+        {
+        this.Space.LevelSettings.PT.Particle  = 0;
+        this.ParticleTime = 0;
+        this.Owner.Destroy();
+        }
+    }
+}

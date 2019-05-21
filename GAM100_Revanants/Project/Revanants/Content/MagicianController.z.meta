@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "MagicianController",
+		uint64 ResourceId = 56441e6ff1963002,
+	},
+},

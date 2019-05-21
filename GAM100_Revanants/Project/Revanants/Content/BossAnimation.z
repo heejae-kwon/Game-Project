@@ -1,0 +1,249 @@
+class BossAnimation : ZilchComponent
+{
+	[Property]
+	var BossStand : SpriteSource = null;
+
+	[Property]
+	var BossStand1 : SpriteSource = null;
+
+	[Property]
+	var BossStand2 : SpriteSource = null;
+
+	[Property]
+	var BossStand3 : SpriteSource = null;
+
+	[Property]
+	var BossCharge : SpriteSource = null;
+
+	[Property]
+	var BossCharge1 : SpriteSource = null;
+
+	[Property]
+	var BossCharge2 : SpriteSource = null;
+
+	[Property]
+	var BossCharge3 : SpriteSource = null;
+
+	[Property]
+	var BossHurt : SpriteSource = null;
+
+	[Property]
+	var BossHurt1 : SpriteSource = null;
+
+	[Property]
+	var BossHurt2 : SpriteSource = null;
+
+	[Property]
+	var BossHurt3 : SpriteSource = null;
+
+
+
+	var HurtRemain : Real;
+
+	var NotCharge : Integer = 0;
+
+	function Initialize (init : CogInitializer)
+	{
+		Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+	}
+
+
+
+
+
+	function OnLogicUpdate(event : UpdateEvent)
+	{
+
+
+      // standing state
+		if(this.Owner.Sprite.SpriteSource == this.BossStand)
+		{   
+			if (this.Owner.Boss.Hurt % 5 == 3)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossHurt;
+
+			}
+
+			if ((this.Owner.GameLv1.MovementTime >= 43 && this.Owner.GameLv1.MovementTime < 45) || (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9) || (this.Owner.GameLv1.MovementTime >= 53 && this.Owner.GameLv1.MovementTime < 54.9))
+			{
+
+
+				Console.WriteLine("dfsdfsdfsd");
+				this.Owner.Sprite.SpriteSource = this.BossCharge;
+				if (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9)
+				{
+					this.Owner.Sprite.FlipX = true;
+				}
+
+			}
+
+			if (this.Space.LevelSettings.HP.BossHP <= 80 && this.Space.LevelSettings.HP.BossHP >60)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossStand1;
+			}      
+		}
+		else if(this.Owner.Sprite.SpriteSource == this.BossStand1)
+		{   
+			if (this.Owner.Boss.Hurt % 5 == 3)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossHurt1;
+
+			}
+
+			if ((this.Owner.GameLv1.MovementTime >= 43 && this.Owner.GameLv1.MovementTime < 45) || (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9) || (this.Owner.GameLv1.MovementTime >= 53 && this.Owner.GameLv1.MovementTime < 54.9))
+			{
+
+				Console.WriteLine("dfsdfsdfsd");
+				this.Owner.Sprite.SpriteSource = this.BossCharge1;
+				if (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9)
+				{
+					this.Owner.Sprite.FlipX = true;
+				}
+
+			}
+
+			if (this.Space.LevelSettings.HP.BossHP <= 60 && this.Space.LevelSettings.HP.BossHP > 40)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossStand2;
+			}      
+		}
+		else if(this.Owner.Sprite.SpriteSource == this.BossStand2)
+		{   
+			if (this.Owner.Boss.Hurt % 5 == 3)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossHurt2;
+
+			}
+
+			if ((this.Owner.GameLv1.MovementTime >= 43 && this.Owner.GameLv1.MovementTime < 45) || (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9) || (this.Owner.GameLv1.MovementTime >= 53 && this.Owner.GameLv1.MovementTime < 54.9))
+			{
+
+				Console.WriteLine("dfsdfsdfsd");
+				this.Owner.Sprite.SpriteSource = this.BossCharge2;
+				if (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9)
+				{
+					this.Owner.Sprite.FlipX = true;
+				}
+
+			}
+
+			if (this.Space.LevelSettings.HP.BossHP <= 40 && this.Space.LevelSettings.HP.BossHP >20)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossStand3;
+			}      
+		}
+		else if(this.Owner.Sprite.SpriteSource == this.BossStand3)
+		{   
+			if (this.Owner.Boss.Hurt % 5 == 3)
+			{
+				this.Owner.Sprite.SpriteSource = this.BossHurt3;
+
+			}
+
+			if ((this.Owner.GameLv1.MovementTime >= 43 && this.Owner.GameLv1.MovementTime < 45) || (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9) || (this.Owner.GameLv1.MovementTime >= 53 && this.Owner.GameLv1.MovementTime < 54.9))
+			{
+
+				Console.WriteLine("dfsdfsdfsd");
+				this.Owner.Sprite.SpriteSource = this.BossCharge3;
+				if (this.Owner.GameLv1.MovementTime >= 48 && this.Owner.GameLv1.MovementTime < 49.9)
+				{
+					this.Owner.Sprite.FlipX = true;
+				}
+
+			}
+
+}
+
+			if(this.Owner.Sprite.SpriteSource == this.BossHurt)
+			{
+				this.HurtRemain += event.Dt;    
+			}
+			else if(this.Owner.Sprite.SpriteSource == this.BossHurt1)
+			{
+				this.HurtRemain += event.Dt;    
+			}
+			else if(this.Owner.Sprite.SpriteSource == this.BossHurt2)
+			{
+				this.HurtRemain += event.Dt;    
+			}
+			else if(this.Owner.Sprite.SpriteSource == this.BossHurt3)
+			{
+				this.HurtRemain += event.Dt;    
+			}
+
+			if (this.HurtRemain > 1 && this.HurtRemain < 2)
+			{
+				if(this.Owner.Sprite.SpriteSource == this.BossHurt)
+				{
+					this.Owner.Sprite.SpriteSource = this.BossStand; 
+				}
+				else if(this.Owner.Sprite.SpriteSource == this.BossHurt1)
+				{
+					this.Owner.Sprite.SpriteSource = this.BossStand1;   
+				}
+				else if(this.Owner.Sprite.SpriteSource == this.BossHurt2)
+				{
+					this.Owner.Sprite.SpriteSource = this.BossStand2;
+				}
+				else if(this.Owner.Sprite.SpriteSource == this.BossHurt3)
+				{
+					this.Owner.Sprite.SpriteSource = this.BossStand3;
+				}
+
+				this.Owner.Boss.Hurt = 0;
+				this.HurtRemain = 0;
+    }    // walking state
+    
+    
+    if (this.Owner.Sprite.SpriteSource == this.BossCharge)
+    {
+        Console.WriteLine("77987987987978");
+    	if ((this.Owner.GameLv1.MovementTime >= 45 && this.Owner.GameLv1.MovementTime < 48) || (this.Owner.GameLv1.MovementTime >= 50 && this.Owner.GameLv1.MovementTime < 53) || (this.Owner.GameLv1.MovementTime >= 55 && this.Owner.GameLv1.MovementTime < 56))
+    	{
+    		if (this.Owner.Sprite.FlipX == true)
+    		{
+    			this.Owner.Sprite.FlipX = false;
+    		}
+    		this.Owner.Sprite.SpriteSource = this.BossStand;   
+    	}
+    }
+    else if (this.Owner.Sprite.SpriteSource == this.BossCharge1)
+    {
+    	if ((this.Owner.GameLv1.MovementTime >= 45 && this.Owner.GameLv1.MovementTime < 48) || (this.Owner.GameLv1.MovementTime >= 50 && this.Owner.GameLv1.MovementTime < 53) || (this.Owner.GameLv1.MovementTime >= 55 && this.Owner.GameLv1.MovementTime < 56))
+    	{
+    		if (this.Owner.Sprite.FlipX == true)
+    		{
+    			this.Owner.Sprite.FlipX = false;
+    		}
+    		this.Owner.Sprite.SpriteSource = this.BossStand1;   
+    	}
+    }
+    else if (this.Owner.Sprite.SpriteSource == this.BossCharge2)
+    {
+    	if ((this.Owner.GameLv1.MovementTime >= 45 && this.Owner.GameLv1.MovementTime < 48) || (this.Owner.GameLv1.MovementTime >= 50 && this.Owner.GameLv1.MovementTime < 53) || (this.Owner.GameLv1.MovementTime >= 55 && this.Owner.GameLv1.MovementTime < 56))
+    	{
+    		if (this.Owner.Sprite.FlipX == true)
+    		{
+    			this.Owner.Sprite.FlipX = false;
+    		}
+    		this.Owner.Sprite.SpriteSource = this.BossStand2;   
+    	}
+    }
+    else if (this.Owner.Sprite.SpriteSource == this.BossCharge3)
+    {
+    	if ((this.Owner.GameLv1.MovementTime >= 45 && this.Owner.GameLv1.MovementTime < 48) || (this.Owner.GameLv1.MovementTime >= 50 && this.Owner.GameLv1.MovementTime < 53) || (this.Owner.GameLv1.MovementTime >= 55 && this.Owner.GameLv1.MovementTime < 56))
+    	{
+    		if (this.Owner.Sprite.FlipX == true)
+    		{
+    			this.Owner.Sprite.FlipX = false;
+    		}
+    		this.Owner.Sprite.SpriteSource = this.BossStand3;   
+    	}
+    }
+    // stun state
+
+
+
+
+}
+}

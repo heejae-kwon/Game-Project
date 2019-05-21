@@ -1,0 +1,85 @@
+class MouseInput : ZilchComponent
+{
+    
+    
+    var Color : Real4;
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+         Zero.Connect(this.Owner, Events.MouseUp, this.OnMouseUp);
+         Zero.Connect(this.Owner, Events.MouseDown, this.OnMouseDown);
+         Zero.Connect(this.Owner, Events.MouseMove, this.OnMouseMove);
+        Zero.Connect(this.Owner, Events.MouseExit, this.OnMouseExit);
+    this.Color = this.Owner.SpriteText.Color;
+    
+     
+    }
+        function OnMouseExit(event : ViewportMouseEvent)
+{
+this.Owner.SpriteText.Color = this.Color;
+}
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+    }
+        function OnMouseDown(event : ViewportMouseEvent)
+{
+this.Owner.SpriteText.Color = this.Color + Real4 (0, 0, 0, -0.5);
+}
+        function OnMouseMove(event : ViewportMouseEvent)
+{
+this.Owner.SpriteText.Color = this.Color + Real4 (0, 0, 0, -0.8);
+}
+    
+    
+    function OnMouseUp(event : ViewportMouseEvent)
+{
+    
+    
+    if (this.Owner.ArchetypeName == ("GameStart"))
+    {
+        
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.GameLv1);
+    if(this.Space.TimeSpace.TimeScale != 1)
+    {
+        this.Space.TimeSpace.TimeScale = 1;
+    }
+    }
+     else if (this.Owner.ArchetypeName == ("Howtoplay"))
+    {
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.ButtonInfo);
+    }
+            else if (this.Owner.ArchetypeName == ("Credit"))
+    {
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.Credit);
+    }
+        else if (this.Owner.ArchetypeName == ("Gotomenu"))
+    {
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.Revenant);
+    }
+            else if (this.Owner.ArchetypeName == ("Howtoplay"))
+    {
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.ButtonInfo);
+    }
+                else if (this.Owner.ArchetypeName == ("Resume"))
+    {
+        Zero.Mouse.Cursor = this.Space.FindObjectByName("BackGround").CursorRemove.Invisible;
+         var menu = this.Space.FindObjectByName("EscMenu");
+        this.Space.TimeSpace.TimeScale = 1.0;
+     menu.Transform.Translation = Real3(1000, 0, -1000);
+     this.Space.LevelSettings.ShowMenu.Toggle = 0;
+    }
+     else if (this.Owner.ArchetypeName == ("Back"))
+    {
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.Revenant);
+    }
+         else if (this.Owner.ArchetypeName == ("Exit"))
+    {
+   
+    
+    
+    this.GameSession.Quit();
+    }
+}
+
+
+}

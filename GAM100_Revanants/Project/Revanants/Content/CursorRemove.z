@@ -1,0 +1,15 @@
+class CursorRemove : ZilchComponent
+{   
+    [Property]
+    var Invisible : Cursor;
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+       Zero.Mouse.Cursor = this.Invisible;
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        
+    }
+}

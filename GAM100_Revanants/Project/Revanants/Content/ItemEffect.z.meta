@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "ItemEffect",
+		uint64 ResourceId = 56ade74078e4bacf,
+	},
+},

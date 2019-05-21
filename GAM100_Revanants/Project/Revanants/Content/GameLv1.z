@@ -1,0 +1,215 @@
+class GameLv1 : ZilchComponent
+{
+    var Dash : Integer = 1;
+    
+    [Dependency]
+    var Area : Area;
+    
+    [Property]
+    var MovementTime : Real = 0;
+    
+    var Returnposition : Real3;
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+       function OnLogicUpdate(event : UpdateEvent)
+    {
+     if(this.Space.LevelSettings.HP.HP <= 0)
+    {
+    this.Space.LoadLevel(this.Space.LevelSettings.Levels.Lose);
+    }
+        this.MovementTime += event.Dt;
+        var movement = Real3(0, 0, 0);
+        
+        if (this.MovementTime >= 1 && this.MovementTime < 4.5 && this.Owner.Transform.Translation.Y <= 1)
+        {
+            movement = Real3(0.0, 8.0, 0.0);
+            this.Returnposition = this.Owner.Transform.Translation;
+            Console.WriteLine(this.Owner.Transform.Translation.X);
+           Console.WriteLine(this.Owner.Transform.Translation.Y);
+        }
+        
+     
+        
+          if (this.MovementTime >= 5 && this.MovementTime < 7)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+          else if (this.MovementTime >= 7 && this.MovementTime < 9)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+         }
+          else if (this.MovementTime >= 9 && this.MovementTime < 11)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+         
+         else if (this.MovementTime >= 13 && this.MovementTime < 15)
+         {
+           movement = Real3 (-3.0, -1.0, 0.0);
+         }
+            else if (this.MovementTime >= 15 && this.MovementTime < 17)
+         {
+           movement = Real3 (-3.0, 1.0, 0.0);
+         }
+           else if (this.MovementTime >= 17 && this.MovementTime < 19)
+         {
+           movement = Real3 (-3.0, -1.0, 0.0);
+         }
+          else if (this.MovementTime >= 19 && this.MovementTime < 21)
+         {
+           movement = Real3 (-3.0, 1.0, 0.0);
+         }
+           else if (this.MovementTime >= 21 && this.MovementTime < 23)
+         {
+           movement = Real3 (-3.0, -1.0, 0.0);
+         }
+          else if (this.MovementTime >= 23 && this.MovementTime < 25)
+         {
+           movement = Real3 (-3.0, 1.0, 0.0);
+         }
+         
+         else if (this.MovementTime >= 27 && this.MovementTime < 29)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+         }
+         else if (this.MovementTime >= 29 && this.MovementTime < 31)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+          else if (this.MovementTime >= 31 && this.MovementTime < 33)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+         }
+         else if (this.MovementTime >= 33 && this.MovementTime < 35)
+         {
+           this.Owner.Transform.Translation = this.Returnposition;
+         }    
+         
+         
+         
+           else if (this.MovementTime >= 35 && this.MovementTime < 37)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+          else if (this.MovementTime >= 37 && this.MovementTime < 39)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+         }
+          else if (this.MovementTime >= 39 && this.MovementTime < 41)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+          else if (this.MovementTime >= 41 && this.MovementTime < 42)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+          
+         }
+            else if (this.MovementTime >= 41.5 && this.MovementTime < 43 && this.Dash == 1)
+         {
+          this.Space.SoundSpace.PlayCue(SoundCue.DashSound); 
+          this.Dash = 0;
+         }
+
+          else if (this.MovementTime >= 43 && this.MovementTime < 45)
+         {
+             this.Dash = 1;
+           movement = Real3 (-20.0, 0.0, 0.0);
+           
+         }
+          else if (this.MovementTime >= 46 && this.MovementTime < 47.5)
+         {
+           movement = Real3 (0.0, -3.0, 0.0);
+          
+         }
+         else if (this.MovementTime >= 47 && this.MovementTime < 48 && this.Dash == 1)
+         {
+           
+         this.Space.SoundSpace.PlayCue(SoundCue.DashSound);
+         this.Dash = 0;
+         }
+          else if (this.MovementTime >= 48 && this.MovementTime < 49.9)
+         {
+           this.Dash = 1;
+           movement = Real3 (20.0, 0.0, 0.0);
+         
+         }
+          else if (this.MovementTime >= 51 && this.MovementTime < 52.5)
+         {
+           movement = Real3 (0.0, -3.0, 0.0);
+         }
+          else if (this.MovementTime >= 52 && this.MovementTime < 53 && this.Dash == 1)
+         {
+           this.Space.SoundSpace.PlayCue(SoundCue.DashSound);
+           this.Dash = 0;
+         }
+          else if (this.MovementTime >= 53 && this.MovementTime < 54.9)
+         {
+           movement = Real3 (-20.0, 0.0, 0.0);
+         }
+          else if (this.MovementTime >= 56 && this.MovementTime < 59)
+         {
+           movement = Real3 (0.0, 3.0, 0.0);
+         }
+         
+            else if (this.MovementTime >= 60 && this.MovementTime < 62)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+          else if (this.MovementTime >= 62 && this.MovementTime < 64)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+         }
+          else if (this.MovementTime >= 64 && this.MovementTime < 66)
+         {
+           movement = Real3 (3.0, 1.0, 0.0);
+         }
+          else if (this.MovementTime >= 66 && this.MovementTime < 66.5 && this.Owner.Transform.Translation.X <= 0)
+         {
+           movement = Real3 (3.0, -1.0, 0.0);
+         }
+         
+           
+            else if (this.MovementTime >= 67 && this.MovementTime < 68 && this.Owner.Transform.Translation.Y <= 0)
+         {
+           movement = Real3 (0.0, -3.0, 0.0);
+         }
+           else if (this.MovementTime >= 68 && this.MovementTime < 80)
+         {
+           movement = Real3 (0.0, 0.0, 0.0);
+         }
+           else if (this.MovementTime >= 80 && this.MovementTime < 82 && this.Owner.Transform.Translation.Y >= 1)
+         {
+        movement = Real3 (0.0, -3.0, 0.0);
+        }
+         
+         
+
+
+           else if (this.MovementTime >= 83 && this.MovementTime < 84)
+         {
+           this.Owner.Transform.Translation = this.Returnposition;
+           Console.WriteLine(this.Owner.Transform.Translation.X);
+           Console.WriteLine(this.Owner.Transform.Translation.Y);
+          
+           
+           this.MovementTime = 4.5;
+           
+       }
+       /*more pattern*/
+         
+                
+          
+        
+
+    
+    
+    
+        this.Owner.Transform.Translation += movement * event.Dt;
+        
+    }
+}
+ 

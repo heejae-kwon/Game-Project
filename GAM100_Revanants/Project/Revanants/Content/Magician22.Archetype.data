@@ -1,0 +1,176 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Magician22",
+	},
+	Archetyped = 
+	{
+		string Name = "565ff956b9492ee7:Magician22",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-15.2883978, -8.40874958, 10],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		bool Visible = true,
+		bool VisibilityCulling = true,
+		bool VisibilityEvents = true,
+		bool CastShadows = false,
+		Vec4 Color = [1, 1, 1, 1],
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+		string SpriteSource = "5683ef8a1bc5a4c1:p2 MAIN",
+		bool RenderMask = false,
+		bool FlipX = false,
+		bool FlipY = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+		string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+		Vec3 Offset = [0, -0.0399999991, 0],
+		Vec3 Size = [1, 1, 0.5],
+	},
+	CharacterAnimation = 
+	{
+		string PlayerStand = "5683ef8a1bc5a4c1:p2 MAIN",
+		string PlayerWalk = "5683e1a928d96d64:p2Ani",
+		string PlayerJump = "5683ef8d1bc54e34:P2 jumo",
+		string PlayerHurt = "5683cb798114faf6:rip",
+	},
+	Stun = 
+	{
+		float Stun = 0,
+		float CanMoveTime = 0.300000012,
+		float InvincibleTime = 0.600000024,
+	},
+	MagicianController = 
+	{
+		float RockSpawnTime = 0.400000006,
+	},
+	SweptController = 
+	{
+		Vec3 WorldUp = [0, 1, 0],
+		bool LockZAxis = true,
+		bool ForwardEvents = false,
+		float Gravity = 25,
+		float JumpSpeed = 17,
+		float JumpCancelFactor = 0.5,
+		float MaxMoveSpeed = 10,
+		float MaxFallSpeed = 20,
+		float GroundAcceleration = 50,
+		float AirAcceleration = 10,
+		float GroundDeceleration = 50,
+		float AirDeceleration = 10,
+		float MaxGroundSlope = 45,
+		float MaxCeilingSlope = 45,
+		float GroundSnapDistance = 0.100000001,
+		Vec3 ControllerVelocity = [0, 0, 0],
+		bool Grounded = true,
+		bool Jumping = false,
+		float GroundTraction = 1,
+		float AirTraction = 1,
+	},
+	Player = 
+	{
+		int Player = 2,
+		float RespawnTime = 0,
+		int RespawnStart = 0,
+	},
+	KeySetting = 
+	{
+	},
+	PlayerMovement = 
+	{
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "PlayerInfo",
+			},
+			Archetyped = 
+			{
+				string Name = "56c901c7f63210f5:PlayerInfo",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.0580263138, 1.8734591, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			SpriteText = 
+			{
+				bool Visible = true,
+				bool VisibilityCulling = true,
+				bool VisibilityEvents = true,
+				bool CastShadows = false,
+				Vec4 Color = [1, 0.869999886, 0, 1],
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+				string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+				string FontName = "4e7bac697bec55c5:Verdana",
+				uint FontSize = 50,
+				string Text = "Player2",
+				TextAlign Align = Center,
+				float PixelsPerUnit = 64,
+				bool Smoothing = true,
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = true,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+			BoxCollider = 
+			{
+				bool Ghost = true,
+				bool SendsMessages = true,
+				bool Seamless = true,
+				string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+				string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+				Vec3 Offset = [0, -1.28999996, 0],
+				Vec3 Size = [1.5, 1.5, 0.5],
+			},
+		},
+	},
+},

@@ -1,0 +1,42 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "ExitText",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, -8.15584373, 20],
+		Vec3 Scale = [2.5, 2.5, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SpriteText = 
+	{
+		bool Visible = true,
+		bool VisibilityCulling = true,
+		bool VisibilityEvents = true,
+		bool CastShadows = false,
+		Vec4 Color = [0.00999999046, 0.00999999046, 0.00999999046, 1],
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+		string FontName = "4e7bac697bec55c5:Verdana",
+		uint FontSize = 70,
+		string Text = "Exit",
+		TextAlign Align = Center,
+		float PixelsPerUnit = 128,
+		bool Smoothing = true,
+	},
+	MouseInput = 
+	{
+	},
+	Reactive = 
+	{
+		bool Active = true,
+		bool CaptureMouse = false,
+	},
+},

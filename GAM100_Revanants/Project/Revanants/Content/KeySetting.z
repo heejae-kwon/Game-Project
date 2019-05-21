@@ -1,0 +1,59 @@
+class KeySetting : ZilchComponent
+{
+    var AttackKey1 : Keys = Keys.Enter;
+    var JumpKey1 : Keys = Keys.Up;
+   
+    var UpKey1 : Keys = Keys.Up;
+    var DownKey1 : Keys = Keys.Down;
+    var RightKey1 : Keys = Keys.Right;
+    var LeftKey1 : Keys = Keys.Left;
+    
+    var AttackKey2 : Keys = Keys.Control;
+    var JumpKey2 : Keys = Keys.W;
+  
+    var UpKey2 : Keys = Keys.W;
+    var DownKey2 : Keys = Keys.S;
+    var RightKey2 : Keys = Keys.D;
+    var LeftKey2 : Keys = Keys.A;
+        
+        var AttackKey : Keys;
+        var JumpKey : Keys;
+      
+        var UpKey : Keys;
+        var DownKey : Keys;
+        var RightKey : Keys;
+        var LeftKey : Keys;
+        
+
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        if (this.Owner.Player.Player == 1)
+        {
+        this.AttackKey = this.AttackKey1;
+        this.JumpKey = this.JumpKey1;
+
+        this.UpKey = this.UpKey1;
+        this.DownKey = this.DownKey1;
+        this.RightKey = this.RightKey1;
+        this.LeftKey = this.LeftKey1;
+        }
+        
+        else if (this.Owner.Player.Player == 2)
+        {
+        this.AttackKey = this.AttackKey2;
+        this.JumpKey = this.JumpKey2;
+      
+        this.UpKey = this.UpKey2;
+        this.DownKey = this.DownKey2;
+        this.RightKey = this.RightKey2;
+        this.LeftKey = this.LeftKey2;
+        }
+    
+    }
+}

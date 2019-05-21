@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "Main",
+		uint64 ResourceId = 5683ddc758998c04,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 56,
+		uint FrameSizeY = 48,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 28,
+		float OriginY = 24,
+		float PixelsPerUnit = 18,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

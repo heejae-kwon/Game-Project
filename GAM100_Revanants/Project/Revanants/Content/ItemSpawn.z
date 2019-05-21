@@ -1,0 +1,29 @@
+class ItemSpawn : ZilchComponent
+{
+
+    var ItemSpawnTime : Real = 0.0;
+    var Allow : Integer = 1;
+    
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+        
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+                
+        this.ItemSpawnTime += event.Dt;
+       
+    if (this.ItemSpawnTime >= 10 && this.ItemSpawnTime < 11 && this.Allow == 1 && this.Space.LevelSettings.HP.BossHP > 0)
+    {
+    var spawnPosition = Real3(0, 1.5, 11);
+    var archetypeToSpawn = Archetype.Item;
+    this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+    this.Allow = 0;
+
+    }
+    
+    
+    }
+}

@@ -1,0 +1,49 @@
+class PlayerMovement : ZilchComponent
+{
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+          var movement = Real3(0.0, 0.0, 0.0);
+          /*MovementCondition*/
+    if ((this.Owner.Player.Player == 1  || this.Owner.Player.Player == 2) && this.Owner.Player.RespawnStart != 1)
+{
+            /*MovementStart*/
+    
+    // control left, right, and up
+    if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.LeftKey))
+    
+    {
+        movement.X -= 1.0;
+            this.Owner.Sprite.FlipX = true;
+    }
+
+    if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.RightKey))
+    {
+        movement.X += 1.0;
+           this.Owner.Sprite.FlipX = false;
+    }
+
+    if(Zero.Keyboard.KeyIsPressed(this.Owner.KeySetting.JumpKey))
+    {
+        this.Owner.SweptController.Jump();
+    }
+
+    // if the jump key is not pressed, find the point of release and stop jumping
+    if(Zero.Keyboard.KeyIsDown(this.Owner.KeySetting.JumpKey) == false)
+    {
+        if(this.Owner.SweptController.Jumping)
+        {
+            this.Owner.SweptController.JumpCancel();
+        }
+    }
+    /*Movement End*/
+}
+         // at the end, update
+    this.Owner.SweptController.Update(movement, event.Dt);
+       
+    }
+}

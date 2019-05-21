@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "CursorRemove",
+		uint64 ResourceId = 564e8393cf6c7899,
+	},
+},
