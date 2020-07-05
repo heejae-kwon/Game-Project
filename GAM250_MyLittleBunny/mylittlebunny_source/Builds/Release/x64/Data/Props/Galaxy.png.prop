@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Galaxy.png.prop" : 
+		{
+			"id" : "sprGalaxy",
+			"imageFile" : "Galaxy.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

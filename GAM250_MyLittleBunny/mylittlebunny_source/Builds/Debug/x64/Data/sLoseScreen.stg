@@ -1,0 +1,128 @@
+{
+	"ActorList" : 
+	[
+		"LoseScreen",
+		"particle"
+	],
+	"Actors" : 
+	{
+		"LoseScreen" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprLoseScreen"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					78,
+					0,
+					9.8000001907348633
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.80000007152557373,
+					0.65000003576278687
+				],
+				"size" : 
+				[
+					700,
+					420
+				]
+			},
+			"isActive" : true
+		},
+		"particle" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"PARTICLEEMITTER"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					0,
+					0,
+					0.5
+				],
+				"textureId" : "sprFireWork"
+			},
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 200,
+				"lifetime" : 2,
+				"loop" : true,
+				"maxscale" : 1000,
+				"maxvel" : -110,
+				"minscale" : 1000,
+				"minvel" : 0,
+				"particleType" : "TWO",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					40,
+					200
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprParticle"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					470,
+					9.8000001907348633
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.19999995827674866,
+					0.19999995827674866
+				],
+				"size" : 
+				[
+					20,
+					20
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"CreditScreen.png.prop",
+		"Star.png.prop",
+		"LoseScreen.png.prop",
+		"particle.png.prop"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Arrow.png.prop" : 
+		{
+			"id" : "sprArrow",
+			"imageFile" : "Arrow.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Credit.png.prop" : 
+		{
+			"id" : "sprMenuCredit",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+            "imageFile" : "Credit.png",
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine Cores">
+      <UniqueIdentifier>{8fce4fc3-1c80-4179-bb58-d34488986726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{f52513f1-033a-47b2-8845-1ac707cc9e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{88732ce4-3792-4e94-a946-622baa864dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Abstractions">
+      <UniqueIdentifier>{76f5fa70-768d-46f9-ab0b-562f205b8a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Cores">
+      <UniqueIdentifier>{72131956-19fa-4cde-b8de-51dd62bc111f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIP">
+      <UniqueIdentifier>{7906face-082d-412c-8451-e1b6f48c3490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_NonNativeCode">
+      <UniqueIdentifier>{9dbb510f-1cee-42bf-b751-ff02f61bde3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Abstractions">
+      <UniqueIdentifier>{5d0f8ca8-f2ec-4ff4-8dfb-29b058cdf467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_GAME_">
+      <UniqueIdentifier>{8fcb9838-1371-48b4-b005-cf13b6ff6f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_GAME_">
+      <UniqueIdentifier>{dc400e61-e3b1-4900-923c-381da5ff8bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{5061155f-fa12-4ac3-af8c-1d357777b66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{b3135cb6-5591-4364-93a3-891cd6e94c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Props">
+      <UniqueIdentifier>{0a8e5efd-5f50-42bf-97c4-9ec991a32d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WIP">
+      <UniqueIdentifier>{a1ae3873-d508-406f-8889-2fbf534376ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Props">
+      <UniqueIdentifier>{536894a1-f79e-4afc-a9c7-9b8efdefe267}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Utilities\Timer.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\TimerManager.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\_NonNativeCode\GL3W\gl3w.c">
+      <Filter>Source Files\_NonNativeCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\_NonNativeCode\DearImgui_Bindings\imgui_impl_sdl_gl3.cpp">
+      <Filter>Source Files\_NonNativeCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\_NonNativeCode\DearImgui_Bindings\imgui.cpp">
+      <Filter>Source Files\_NonNativeCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\_NonNativeCode\DearImgui_Bindings\imgui_draw.cpp">
+      <Filter>Source Files\_NonNativeCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstractions\ImGuiAbst.cpp">
+      <Filter>Source Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Debugger.cpp">
+      <Filter>Source Files\Engine Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\BagOfGoodies.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\BaseCore.cpp">
+      <Filter>Source Files\Engine Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Draw.cpp">
+      <Filter>Source Files\Engine Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstractions\RenderAbst.cpp">
+      <Filter>Source Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstractions\WindowAbst.cpp">
+      <Filter>Source Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Event.cpp">
+      <Filter>Source Files\Engine Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Texture.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Shader.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BunnyEngine.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Keyboard.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\PropManager.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseStage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\_NonNativeCode\jsoncpp\jsoncpp.cpp">
+      <Filter>Source Files\_NonNativeCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLegacyMenu.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLegacyLogo.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\DearImGuiHelperFunc.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\JsonReader.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sConfirmQuit.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\JsonWriter.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Display.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Camera.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Props\Image.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Props\Audio.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Props\BaseProp.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Props\Animation.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Physics.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\HBIntersection.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\HBMath.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\HBVec2.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Pair.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Rigidbody.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sCredit.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sHowtoPlay.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sOption.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sConfirmMenu.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\CircleCollider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstractions\AudioAbst.cpp">
+      <Filter>Source Files\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\FileHandler.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\ParticleEmitter.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Particle.cpp">
+      <Filter>Source Files\Engine Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\HBRandom.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sPokemon.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Mouse.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sWinScreen.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\Objects.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oEnemy.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oPlanet.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oPlayer.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\LevelSetting.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Gameplay.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLoseScreen.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLoseScreen.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sTestLevel.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sTutorial.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sGameStage.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oCamera.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sRocketDestinationSelect.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WIP\Gamepad.cpp">
+      <Filter>Source Files\WIP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\inputAbstraction.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sRocketDestMenu.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sHowtoKill.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\PlanetRotationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sHowtoPowerup.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sESCMenu.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sConfirmRestart.cpp">
+      <Filter>Source Files\_GAME_</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emptyStage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utilities\Timer.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\TimerManager.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Abstractions\ImGuiAbst.hpp">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Debugger.hpp">
+      <Filter>Header Files\Engine Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\BaseCore.hpp">
+      <Filter>Header Files\Engine Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Draw.hpp">
+      <Filter>Header Files\Engine Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Abstractions\RenderAbst.hpp">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Abstractions\WindowAbst.hpp">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Event.hpp">
+      <Filter>Header Files\Engine Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\crc32.hh">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BunnyEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseStage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Texture.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\PropManager.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Shader.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Keyboard.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Gamepad.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Mouse.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\keycode.hh">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\BagOfGoodies.hh">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\DearImGuiHelperFunc.hh">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\logicFunctions.hh">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sLegacyMenu.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sLegacyLogo.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\JsonReader.hh">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sConfirmQuit.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\JsonWriter.hh">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\BaseComponent.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Transform.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Display.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Camera.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Props\BaseProp.hpp">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Props\Image.hpp">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Props\Audio.hpp">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Components.hh">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Props\Props.hh">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Abstractions\AudioAbst.hpp">
+      <Filter>Header Files\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\FileHandler.hh">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Props\Animation.hpp">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Physics.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\HBIntersection.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\HBMath.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\HBVec2.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\Pair.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Rigidbody.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\CircleCollider.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sCredit.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sHowtoPlay.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sOption.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sConfirmMenu.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\ParticleEmitter.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Particle.hpp">
+      <Filter>Header Files\Engine Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WIP\HBRandom.hpp">
+      <Filter>Header Files\WIP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sPokemon.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Gameplay.hpp">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sWinScreen.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\Objects.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oEnemy.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oPlanet.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oPlayer.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\LevelSetting.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sLoseScreen.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sTestLevel.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sTutorial.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sGameStage.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oCamera.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\inputAbstraction.hh">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sRocketDestinationSelect.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sRocketDestMenu.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sHowtoKill.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\PlanetRotationTest.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sHowtoPowerup.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sESCMenu.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sConfirmRestart.hpp">
+      <Filter>Header Files\_GAME_</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emptyStage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

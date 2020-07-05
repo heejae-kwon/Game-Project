@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Confirming.png.prop" : 
+		{
+			"id" : "sprConfirmQuit",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+            "imageFile" : "Confirming.png",
+			"type" : "IMAGE"
+		}
+	}
+}

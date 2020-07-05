@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Title.png.prop" : 
+		{
+			"id" : "sprMenuTitle",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+		    "imageFile" : "Title.png",
+			"type" : "IMAGE"
+		}
+	}
+}

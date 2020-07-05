@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"sign.png.prop" : 
+		{
+			"id" : "sprSign",
+			"imageFile" : "sign.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

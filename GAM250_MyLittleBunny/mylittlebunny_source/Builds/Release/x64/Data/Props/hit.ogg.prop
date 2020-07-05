@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"hit.ogg.prop" : 
+		{
+			"audioFile" : "hit.ogg",
+			"id" : "sndHit",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

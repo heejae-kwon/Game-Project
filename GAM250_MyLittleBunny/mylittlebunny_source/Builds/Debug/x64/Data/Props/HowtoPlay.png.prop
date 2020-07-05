@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"HowtoPlay.png.prop" : 
+		{
+			"id" : "sprHowtoPlay",
+			"imageFile" : "HowtoPlay.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

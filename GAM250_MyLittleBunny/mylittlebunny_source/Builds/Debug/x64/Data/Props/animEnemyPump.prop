@@ -1,0 +1,87 @@
+{
+	"Props" : 
+	{
+		"animEnemyPump.prop" : 
+		{
+			"colorInterpolate" : true,
+			"colorOverride" : true,
+			"id" : "animEnemyPump",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.10000000149011612,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						0,
+						0,
+						1
+					],
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0.40000000596046448
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						-1,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.10000000149011612,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : false,
+			"transformInterpolate" : true,
+			"transformOverride" : true,
+			"type" : "ANIMATION"
+		}
+	}
+}

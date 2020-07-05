@@ -1,0 +1,1472 @@
+{
+	"ActorList" : 
+	[
+		"camera",
+		"player",
+		"planet1",
+		"planet2",
+		"planet3",
+		"spaceship",
+		"button",
+		"core",
+		"hud",
+		"1to3Button",
+		"controlHud",
+		"Star",
+		"planHud2",
+		"planHud1",
+		"planHud3",
+		"LightHud1",
+		"LightHud2",
+		"LightHud3",
+		"planet4",
+		"planet5",
+		"newActor",
+		"3to5Button",
+		"SuperStandHUD",
+		"spaceBarTxt",
+		"UpkeyTxt"
+	],
+	"Actors" : 
+	{
+		"1to3Button" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 95
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3753,
+					-198,
+					0
+				],
+				"rotation" : -20,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"3to5Button" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 100
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					2021.333984375,
+					-80,
+					0
+				],
+				"rotation" : 31,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"LightHud1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 3,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprLightHud"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-176,
+					-293,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.24999983608722687,
+					0.19999983906745911
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"LightHud2" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 3,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprLightHud"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-51,
+					-292,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.24999983608722687,
+					0.19999983906745911
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"LightHud3" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 3,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprLightHud"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					76,
+					-291,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.24999983608722687,
+					0.19999983906745911
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"Star" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-336,
+					-313,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.14999984204769135,
+					0.14999984204769135
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"SuperStandHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprChange"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-60,
+					310,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"UpkeyTxt" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animUpkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutUp"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3670,
+					50,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"button" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprButton"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					-235,
+					0
+				],
+				"rotation" : 180,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 2
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"controlHud" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprControlHud"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-42,
+					-312,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.84999996423721313,
+					0.39999985694885254
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"core" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animSpin",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprCore"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-800,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"hud" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHUD"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					300,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.1999998092651367,
+					1.0999999046325684
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"newActor" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planHud1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 4,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-178,
+					-336,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.070000000298023224,
+					0.070000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"planHud2" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-48,
+					-335,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.070000000298023224,
+					0.070000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"planHud3" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 7,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					77,
+					-336,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.070000000298023224,
+					0.070000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"planet1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 256
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 10,
+				"maxEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-5844,
+					-396,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 256
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 7,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					2244,
+					-408,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 235
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 4,
+				"textureColor" : 
+				[
+					1,
+					0.5,
+					0.20000000298023224,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3900,
+					-520,
+					0
+				],
+				"rotation" : -17,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet4" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 250
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprGalaxy"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-600,
+					1920,
+					0
+				],
+				"rotation" : -25,
+				"scale" : 
+				[
+					2,
+					2
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet5" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 250
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 4,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-4875,
+					78,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"player" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 64
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"PARTICLEEMITTER"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprBasicPlayer"
+			},
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 0,
+				"lifetime" : 4,
+				"maxscale" : 20,
+				"maxvel" : 10,
+				"minscale" : 0,
+				"minvel" : 0,
+				"particleType" : "ONE",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					20,
+					20
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprParticle"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0.40000000596046448,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 45000,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-6096,
+					108,
+					1
+				],
+				"rotation" : -17,
+				"scale" : 
+				[
+					0.40000000596046448,
+					0.40000000596046448
+				],
+				"size" : 
+				[
+					256,
+					256
+				]
+			},
+			"isActive" : true
+		},
+		"spaceBarTxt" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animSpacebar",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutSpace"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-5510,
+					180,
+					3
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"spaceship" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceship"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-5820,
+					-84,
+					-1
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"animPlayerWalk.prop",
+		"bunny.png.prop",
+		"Star.png.prop",
+		"movmov2.png.prop",
+		"planets.png.prop",
+		"SpaceShip.png.prop",
+		"C.png.prop",
+		"button.png.prop",
+		"core.png.prop",
+		"animSpin.prop",
+		"Explode.png.prop",
+		"Explode2.png.prop",
+		"enemy.png.prop",
+		"enemy2.png.prop",
+		"enemy3.png.prop",
+		"hudSheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"animDamage.prop",
+		"EnemiesSheet.png.prop",
+		"animPunch.prop",
+		"Rocket.png.prop",
+		"twinkle.png.prop",
+		"animPunch.png.prop",
+		"ChangeCharacter2.png.prop",
+		"sign.png.prop",
+		"SpaceshipLauncher.png.prop",
+		"movmov3.png.prop",
+		"animChangePlayer.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animBasicPunch.prop",
+		"particle.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"controlHUD.png.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"lightHUD.png.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"flyPlayer.png.prop",
+		"fireWork.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animPounding.prop",
+		"DownPlayer.png.prop",
+		"DownPlayer.png.prop",
+		"animShaking.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Tut_Akey.png.prop",
+		"Tut_Arrow.png.prop",
+		"Tut_Space.png.prop",
+		"Tut_Upkey.png.prop",
+		"Tut_Xkey.png.prop",
+		"animSpacebar.prop",
+		"animUpkey.prop",
+		"Galaxy.png.prop"
+	]
+}

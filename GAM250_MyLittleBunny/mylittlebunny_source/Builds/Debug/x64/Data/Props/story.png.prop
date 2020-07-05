@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"story.png.prop" : 
+		{
+			"id" : "sprStoryToStart",
+			"imageFile" : "story.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

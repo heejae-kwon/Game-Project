@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Tut_Arrow.png.prop" : 
+		{
+			"id" : "sprTutArrow",
+			"imageFile" : "Tut_Arrow.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

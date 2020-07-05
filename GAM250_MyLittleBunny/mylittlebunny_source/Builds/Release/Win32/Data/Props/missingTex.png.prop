@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"missingTex.png.prop" : 
+		{
+			"id" : "err",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+		    "imageFile" : "missingTex.png",
+			"type" : "IMAGE"
+		}
+	}
+}

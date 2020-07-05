@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"fly.wav.prop" : 
+		{
+			"audioFile" : "fly.wav",
+			"id" : "sndFly",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

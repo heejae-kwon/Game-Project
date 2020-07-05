@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Pause.png.prop" : 
+		{
+			"id" : "sprPause",
+			"imageFile" : "Pause.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"107-battle-vs-wild-pokemon-.mp3.prop" : 
+		{
+			"audioFile" : "107-battle-vs-wild-pokemon-.mp3",
+			"id" : "sndBattle",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 0.30000019073486328
+		}
+	}
+}

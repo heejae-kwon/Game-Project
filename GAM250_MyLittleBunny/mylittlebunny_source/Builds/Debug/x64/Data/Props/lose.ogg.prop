@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"lose.ogg.prop" : 
+		{
+			"audioFile" : "lose.ogg",
+			"id" : "sndLose",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

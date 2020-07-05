@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"HowtoPlayCut.png.prop" : 
+		{
+			"id" : "sprHTPCUT",
+			"imageFile" : "HowtoPlayCut.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

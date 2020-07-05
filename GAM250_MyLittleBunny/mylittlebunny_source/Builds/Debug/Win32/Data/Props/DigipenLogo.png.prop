@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"DigipenLogo.png.prop" : 
+		{
+			"id" : "sprLogoDigi",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+            "imageFile" : "DigipenLogo.png",
+			"type" : "IMAGE"
+		}
+	}
+}

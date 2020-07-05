@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"planets.png.prop" : 
+		{
+			"id" : "sprPlanets",
+			"imageFile" : "planets.png",
+			"spriteDm" : 
+			[
+				0.24999983608722687,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

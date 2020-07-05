@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"HTPbutton.png.prop" : 
+		{
+			"id" : "sprMenuHowToPlay",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+		    "imageFile" : "HTPbutton.png",
+			"type" : "IMAGE"
+		}
+	}
+}

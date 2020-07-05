@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"lightHUD.png.prop" : 
+		{
+			"id" : "sprLightHud",
+			"imageFile" : "lightHUD.png",
+			"spriteDm" : 
+			[
+				0.3333333432674408,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

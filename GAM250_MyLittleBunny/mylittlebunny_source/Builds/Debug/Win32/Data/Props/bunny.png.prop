@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"bunny.png.prop" : 
+		{
+			"id" : "sprPlayer",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+            "imageFile" : "bunny.png",
+			"type" : "IMAGE"
+		}
+	}
+}

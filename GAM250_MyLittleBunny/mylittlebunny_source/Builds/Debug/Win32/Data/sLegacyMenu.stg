@@ -1,0 +1,1617 @@
+{
+	"ActorList" : 
+	[
+		"camera",
+		"planet1-1",
+		"planet2-1",
+		"planet3-1",
+		"planet1-2",
+		"creditSign",
+		"planet1-3",
+		"player",
+		"ArrowKey",
+		"station3",
+		"station1",
+		"Upkey1",
+		"Upkey3",
+		"station2",
+		"Upkey4",
+		"RocketHelperHUD",
+		"tutorialSign",
+		"buttonPromptA",
+		"Spacebar1",
+		"startSign",
+		"startSignButtonA",
+		"creditSignButtonA",
+		"InfoSign",
+		"InfoSignGampad",
+		"RockeHelperHUDpad"
+	],
+	"Actors" : 
+	{
+		"ArrowKey" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animArrowkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutArrow"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-596,
+					1104,
+					2
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"InfoSign" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 1
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animHowToPlay",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHowtoPlay"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					422.1800537109375,
+					1174.3114013671875,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.399999737739563,
+					1.0000001192092896
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"InfoSignGampad" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 1
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animGamePadHowtoPlay",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprGamePadInfo"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					422.17999267578125,
+					1174,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.0999999046325684,
+					0.89999997615814209
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"RockeHelperHUDpad" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animRockerHelperPad",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprRocketHelperPad"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					3230.83251953125,
+					-1845.3758544921875,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					3.6999998092651367,
+					3.6499998569488525
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"RocketHelperHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animRocketHelper",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprRocketHelper"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3740.00048828125,
+					-1839.800048828125,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					3.6000001430511475,
+					3.6000001430511475
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Spacebar1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animSpacebar",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutSpace"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					9338.236328125,
+					5423.94921875,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.99999994039535522,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Upkey1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animXkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutX"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-1496,
+					772.00006103515625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Upkey3" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animXkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutX"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					2915.762939453125,
+					1166.761962890625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Upkey4" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animXkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutX"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-4069.88818359375,
+					1685.199462890625,
+					1
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"buttonPromptA" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animShrinkGrow",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprGpButtons"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					32,
+					784,
+					3
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					2,
+					2
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 3
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					249.16766357421875,
+					-1296.22412109375,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0,
+					0
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"creditSign" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 104
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSign"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 1,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					3421.765869140625,
+					-2133.238037109375,
+					1
+				],
+				"rotation" : 31,
+				"scale" : 
+				[
+					1.7000001668930054,
+					1.7000001668930054
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"creditSignButtonA" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animAkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutAkey"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					3343.999267578125,
+					-2256,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet1-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 700
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprMenuTitle"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-594.40032958984375,
+					37.600006103515625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.5000001192092896,
+					1.5000001192092896
+				],
+				"size" : 
+				[
+					731,
+					103
+				]
+			},
+			"isActive" : true
+		},
+		"planet1-2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 250
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprMenuOption"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					1064.1673583984375,
+					-276.05047607421875,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.60000002384185791,
+					0.60000002384185791
+				],
+				"size" : 
+				[
+					319,
+					101
+				]
+			},
+			"isActive" : true
+		},
+		"planet1-3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 250
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprMenuExit"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-616.8870849609375,
+					-1523.863037109375,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.6000019907951355,
+					0.6000019907951355
+				],
+				"size" : 
+				[
+					320,
+					200
+				]
+			},
+			"isActive" : true
+		},
+		"planet2-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 329
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprMenuStart"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3512.347900390625,
+					1232.386962890625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.70000004768371582,
+					0.70000004768371582
+				],
+				"size" : 
+				[
+					319,
+					101
+				]
+			},
+			"isActive" : true
+		},
+		"planet3-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 600
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprMenuCredit"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					3936.61083984375,
+					944.0870361328125,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.3000001907348633,
+					1.3000001907348633
+				],
+				"size" : 
+				[
+					319,
+					101
+				]
+			},
+			"isActive" : true
+		},
+		"player" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 200
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"PARTICLEEMITTER"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprRocketPlayer"
+			},
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 200,
+				"lifetime" : 2.5,
+				"loop" : true,
+				"maxscale" : 130,
+				"maxvel" : 60,
+				"minscale" : 30,
+				"minvel" : 0,
+				"particleType" : "THREE",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					20,
+					50
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprBasicParticle"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : -594.40032958984375,
+				"gravity_y" : 37.600006103515625,
+				"gravityscale" : 45000,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					521.6197509765625,
+					1783.636962890625,
+					2
+				],
+				"rotation" : -22,
+				"scale" : 
+				[
+					0.80000001192092896,
+					0.80000001192092896
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"startSign" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 95
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSignStart"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 1,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3243.41650390625,
+					1553.949462890625,
+					0
+				],
+				"rotation" : -39,
+				"scale" : 
+				[
+					0.40000057220458984,
+					0.30000054836273193
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"startSignButtonA" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animAkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutAkey"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3118.7900390625,
+					1678.636962890625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 100
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-1280,
+					544,
+					0
+				],
+				"rotation" : 54,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 100
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-3853.431396484375,
+					1521.136962890625,
+					0
+				],
+				"rotation" : 51,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 100
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					3178.135498046875,
+					1166.761962890625,
+					1
+				],
+				"rotation" : 70,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"tutorialSign" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 95
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSign"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 1,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-83.9998779296875,
+					644,
+					1
+				],
+				"rotation" : -43,
+				"scale" : 
+				[
+					1.5,
+					1.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"Title.png.prop",
+		"Start.png.prop",
+		"Option.png.prop",
+		"Exit.png.prop",
+		"Credit.png.prop",
+		"Star.png.prop",
+		"animUpDown.prop",
+		"bunny.png.prop",
+		"bunny.png.prop",
+		"bunny.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"movmov2.png.prop",
+		"PressAtoSelect.png.prop",
+		"animPlayerWalk.prop",
+		"animBackgroundStar.prop",
+		"twinkle.png.prop",
+		"movmov3.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"SpaceshipLauncher.png.prop",
+		"SpaceShip.png.prop",
+		"Rocket.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Tut_Upkey.png.prop",
+		"animUpkey.prop",
+		"LoseScreen.png.prop",
+		"animChangePlayer.prop",
+		"animXkey.prop",
+		"Tut_Xkey.png.prop",
+		"RocketHelper.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animRocketHelper.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"gamepad_icons.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animShrinkGrow.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"sign.png.prop",
+		"Tut_Arrow.png.prop",
+		"animArrowkey.prop",
+		"Tut_Space.png.prop",
+		"animSpacebar.prop",
+		"animRocketLauncher.prop",
+		"Tut_Akey.png.prop",
+		"animAkey.prop",
+		"BaseParticle.png.prop",
+		"special.ogg.prop",
+		"bg.ogg.prop",
+		"smoke.png.prop",
+		"HowtoPlay.png.prop",
+		"animHowToPlay.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"SignStart.png.prop",
+		"SignStart.png.prop",
+		"RocketHelperPad.png.prop",
+		"animRockerHelperPad.prop",
+		"gamepad_icons .png.prop",
+		"animGamePadHowtoPlay.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop"
+	]
+}

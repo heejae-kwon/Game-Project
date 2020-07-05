@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"numSheet.png.prop" : 
+		{
+			"id" : "sprNumbers",
+			"imageFile" : "numSheet.png",
+			"spriteDm" : 
+			[
+				0.099999845027923584,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

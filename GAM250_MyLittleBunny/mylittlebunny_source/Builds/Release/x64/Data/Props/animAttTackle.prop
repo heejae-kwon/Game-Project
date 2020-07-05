@@ -1,0 +1,109 @@
+{
+	"Props" : 
+	{
+		"animAttTackle.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animAttTackle",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.15000000596046448,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.15000000596046448,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						-8,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.15000000596046448,
+					"rotation" : 0,
+					"scale" : 
+					[
+						-0.30000001192092896,
+						-0.30000001192092896
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						10,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 1,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : false,
+			"transformInterpolate" : true,
+			"transformOverride" : true,
+			"type" : "ANIMATION"
+		}
+	}
+}

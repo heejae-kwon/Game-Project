@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Explode2.png.prop" : 
+		{
+			"id" : "sprExplodePlanet2",
+			"imageFile" : "Explode2.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

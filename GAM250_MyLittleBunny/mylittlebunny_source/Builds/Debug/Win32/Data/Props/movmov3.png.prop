@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"movmov3.png.prop" : 
+		{
+			"id" : "sprBasicPlayer",
+			"imageFile" : "movmov3.png",
+			"spriteDm" : 
+			[
+				0.25,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

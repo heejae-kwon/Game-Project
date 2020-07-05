@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"LoseScreen.png.prop" : 
+		{
+			"id" : "sprLoseScreen",
+			"imageFile" : "LoseScreen.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

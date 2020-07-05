@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"ChangeCharacter2.png.prop" : 
+		{
+			"id" : "sprChange",
+			"imageFile" : "ChangeCharacter2.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

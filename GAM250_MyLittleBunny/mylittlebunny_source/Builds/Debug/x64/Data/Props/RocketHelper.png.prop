@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"RocketHelper.png.prop" : 
+		{
+			"id" : "sprRocketHelper",
+			"imageFile" : "RocketHelper.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

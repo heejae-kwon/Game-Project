@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"flyPlayer.png.prop" : 
+		{
+			"id" : "sprSuperFly",
+			"imageFile" : "flyPlayer.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

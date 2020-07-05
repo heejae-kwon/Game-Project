@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"animPunch.png.prop" : 
+		{
+			"id" : "sprPunch",
+			"imageFile" : "animPunch.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

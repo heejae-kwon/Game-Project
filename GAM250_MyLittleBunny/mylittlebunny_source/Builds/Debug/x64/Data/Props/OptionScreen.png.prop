@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"OptionScreen.png.prop" : 
+		{
+			"id" : "sprOptionScreen",
+			"imageFile" : "OptionScreen.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

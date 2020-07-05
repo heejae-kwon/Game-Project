@@ -1,0 +1,113 @@
+{
+	"ActorList" : 
+	[
+		"confirmQuit",
+		"Star"
+	],
+	"Actors" : 
+	{
+		"Star" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					238.4000244140625,
+					-251.199951171875,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.099999964237213135,
+					0.099999964237213135
+				],
+				"size" : 
+				[
+					64,
+					64
+				]
+			},
+			"isActive" : true
+		},
+		"confirmQuit" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprCreditScreen"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-19.20001220703125,
+					6.399993896484375,
+					9.8000001907348633
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.80000019073486328,
+					0.60000014305114746
+				],
+				"size" : 
+				[
+					700,
+					420
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"Star.png.prop",
+		"animCredit.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop",
+		"CreditScreen.png.prop"
+	]
+}

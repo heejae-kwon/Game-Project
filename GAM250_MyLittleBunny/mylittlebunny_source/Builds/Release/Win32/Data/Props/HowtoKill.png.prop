@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"HowtoKill.png.prop" : 
+		{
+			"id" : "sprHowtoKill",
+			"imageFile" : "HowtoKill.png",
+			"spriteDm" : 
+			[
+				0.25,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

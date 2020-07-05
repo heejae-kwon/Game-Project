@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"orangeHealth.png.prop" : 
+		{
+			"id" : "sprMidHealth",
+			"imageFile" : "orangeHealth.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

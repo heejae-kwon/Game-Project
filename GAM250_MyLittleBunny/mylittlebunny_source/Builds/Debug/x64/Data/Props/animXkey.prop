@@ -1,0 +1,53 @@
+{
+	"Props" : 
+	{
+		"animXkey.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animXkey",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.33000001311302185,
+					"rotation" : 0,
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.33000001311302185,
+					"rotation" : 0,
+					"spriteIndex" : 2,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : true,
+			"textureId" : "sprTutX",
+			"transformOverride" : false,
+			"type" : "ANIMATION"
+		}
+	}
+}

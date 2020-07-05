@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"bg.ogg.prop" : 
+		{
+			"audioFile" : "bg.ogg",
+			"id" : "sndBG1",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 0.60000002384185791
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Goal.png.prop" : 
+		{
+			"id" : "sprRule",
+			"imageFile" : "Goal.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

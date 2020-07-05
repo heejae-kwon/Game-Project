@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"PressAtoSelect.png.prop" : 
+		{
+			"id" : "sprSelectText",
+			"imageFile" : "PressAtoSelect.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

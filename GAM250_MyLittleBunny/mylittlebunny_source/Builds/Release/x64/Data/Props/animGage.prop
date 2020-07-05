@@ -1,0 +1,64 @@
+{
+	"Props" : 
+	{
+		"animGage.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animGage",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.15000000596046448,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0.05000000074505806,
+						0.10000000149011612
+					],
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.15000000596046448,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 2,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : true,
+			"textureId" : "sprPlayerPounding",
+			"transformInterpolate" : true,
+			"transformOverride" : true,
+			"type" : "ANIMATION"
+		}
+	}
+}

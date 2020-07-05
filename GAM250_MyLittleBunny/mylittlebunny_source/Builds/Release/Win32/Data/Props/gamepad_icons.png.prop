@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"gamepad_icons.png.prop" : 
+		{
+			"id" : "sprGpButtons",
+			"imageFile" : "gamepad_icons.png",
+			"spriteDm" : 
+			[
+				0.5,
+				0.5
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

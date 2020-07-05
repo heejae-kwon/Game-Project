@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"redHealth.png.prop" : 
+		{
+			"id" : "sprLowHealth",
+			"imageFile" : "redHealth.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

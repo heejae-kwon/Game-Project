@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"movmov2.png.prop" : 
+		{
+			"id" : "sprAnimWalk",
+			"imageFile" : "movmov2.png",
+			"spriteDm" : 
+			[
+				0.25,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

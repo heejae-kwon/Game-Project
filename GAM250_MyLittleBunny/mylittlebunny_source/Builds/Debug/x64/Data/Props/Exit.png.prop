@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Exit.png.prop" : 
+		{
+			"id" : "sprMenuExit",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+		    "imageFile" : "Exit.png",
+            "type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"TurnonSound.png.prop" : 
+		{
+			"id" : "sprTurnonSound",
+			"imageFile" : "TurnonSound.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

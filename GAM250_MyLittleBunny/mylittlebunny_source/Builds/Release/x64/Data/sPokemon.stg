@@ -1,0 +1,331 @@
+{
+	"ActorList" : 
+	[
+		"camera",
+		"poke1",
+		"poke1HP",
+		"poke2",
+		"poke2HP",
+		"tmpActor",
+		"background"
+	],
+	"Actors" : 
+	{
+		"background" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprWhiteCube"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					-1
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					47.999969482421875,
+					26.999874114990234
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 0.30000001192092896
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"poke1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 6,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHericendre"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-30,
+					-30,
+					1
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					256,
+					256
+				]
+			},
+			"isActive" : true
+		},
+		"poke1HP" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					0,
+					1,
+					0,
+					1
+				],
+				"textureId" : "sprWhiteCube"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					35,
+					-35,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					8,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"poke2" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprKaiminus"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 100
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					30,
+					30,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"poke2HP" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					0,
+					1,
+					0,
+					1
+				],
+				"textureId" : "sprWhiteCube"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-25,
+					30,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					8,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"tmpActor" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animUpDown",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 7,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprGerminion"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		}
+	},
+	"PropList" : 
+	[
+		"Game Boy GBC - Pokemon Crystal - Pokemon 151-200.png.prop",
+		"germinion.png.prop",
+		"hericendre.png.prop",
+		"kaiminus.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"108-victory-vs-wild-pokemon-.mp3.prop",
+		"animHericendreIntro.prop",
+		"animKaiminusIntro.prop",
+		"animHit.prop",
+		"animAttTackle.prop",
+		"Tackle.wav.prop",
+		"animDeath.prop",
+		"animUpDown.prop",
+		"whiteCube.png.prop"
+	]
+}

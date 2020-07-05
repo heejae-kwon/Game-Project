@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"C.png.prop" : 
+		{
+			"id" : "sprObject",
+			"imageFile" : "C.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

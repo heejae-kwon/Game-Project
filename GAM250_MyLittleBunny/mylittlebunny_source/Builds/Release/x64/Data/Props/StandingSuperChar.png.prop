@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"StandingSuperChar.png.prop" : 
+		{
+			"id" : "sprSuperStand",
+			"imageFile" : "StandingSuperChar.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

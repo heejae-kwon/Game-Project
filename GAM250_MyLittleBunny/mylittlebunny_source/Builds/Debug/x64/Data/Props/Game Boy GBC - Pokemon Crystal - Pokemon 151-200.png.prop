@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Game Boy GBC - Pokemon Crystal - Pokemon 151-200.png.prop" : 
+		{
+			"id" : "sprPokemon",
+			"imageFile" : "Game Boy GBC - Pokemon Crystal - Pokemon 151-200.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

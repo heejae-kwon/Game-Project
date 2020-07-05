@@ -1,0 +1,12 @@
+{
+	"Props" : 
+	{
+		"Tackle.wav.prop" : 
+		{
+			"audioFile" : "Tackle.wav",
+			"id" : "sndAttTackle",
+			"type" : "AUDIO",
+			"volume" : 0.5
+		}
+	}
+}

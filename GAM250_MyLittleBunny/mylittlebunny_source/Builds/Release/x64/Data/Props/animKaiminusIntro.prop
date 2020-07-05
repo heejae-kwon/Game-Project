@@ -1,0 +1,71 @@
+{
+	"Props" : 
+	{
+		"animKaiminusIntro.prop" : 
+		{
+			"id" : "animKaiminusIntro",
+			"keyFrames" : 
+			[
+				{
+					"duration" : 1.2000000476837158,
+					"rotation" : 0,
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"spriteIndex" : 2,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"spriteIndex" : 3,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"duration" : 0.20000000298023224,
+					"rotation" : 0,
+					"spriteIndex" : 4,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"duration" : 1,
+					"rotation" : 0,
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : true,
+			"textureId" : "sprKaiminus",
+			"transformOverride" : false,
+			"type" : "ANIMATION"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"TeamLogo.png.prop" : 
+		{
+			"id" : "sprLogoTeam",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+		    "imageFile" : "TeamLogo.png",
+			"type" : "IMAGE"
+		}
+	}
+}

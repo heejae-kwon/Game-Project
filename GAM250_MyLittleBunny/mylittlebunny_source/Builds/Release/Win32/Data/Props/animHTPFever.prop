@@ -1,0 +1,132 @@
+{
+	"Props" : 
+	{
+		"animHTPFever.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animHTPFever",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 2,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.30000001192092896,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 2,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 1,
+					"rotation" : 0,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 3,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : true,
+			"textureId" : "sprHTPFever",
+			"transformOverride" : false,
+			"type" : "ANIMATION"
+		}
+	}
+}

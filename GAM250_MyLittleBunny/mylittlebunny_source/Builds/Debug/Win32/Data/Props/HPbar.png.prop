@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"HPbar.png.prop" : 
+		{
+			"id" : "sprHPbar",
+			"imageFile" : "HPbar.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

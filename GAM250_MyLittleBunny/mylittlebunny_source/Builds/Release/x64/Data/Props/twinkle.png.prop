@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"twinkle.png.prop" : 
+		{
+			"id" : "sprTwinkle",
+			"imageFile" : "twinkle.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

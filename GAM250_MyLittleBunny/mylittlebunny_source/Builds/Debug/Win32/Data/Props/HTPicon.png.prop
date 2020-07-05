@@ -1,0 +1,15 @@
+{
+	"Props" : 
+	{
+		"HTPicon.png" : 
+		{
+			"id" : "sprMenuHowToPlay",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"fishmen.png.prop" : 
+		{
+			"id" : "sprFishmen",
+			"imageFile" : "fishmen.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

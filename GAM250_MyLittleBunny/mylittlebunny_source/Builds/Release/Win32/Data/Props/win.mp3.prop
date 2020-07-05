@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"win.mp3.prop" : 
+		{
+			"audioFile" : "win.mp3",
+			"id" : "sndWin",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"Props" : 
+	{
+		"animSpacebar.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animSpacebar",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.5,
+					"rotation" : 0,
+					"spriteIndex" : 1,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.5,
+					"rotation" : 0,
+					"spriteIndex" : 2,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : true,
+			"textureId" : "sprTutSpace",
+			"transformOverride" : false,
+			"type" : "ANIMATION"
+		}
+	}
+}

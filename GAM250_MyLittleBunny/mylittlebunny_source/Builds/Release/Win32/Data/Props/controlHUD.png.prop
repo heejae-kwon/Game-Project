@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"controlHUD.png.prop" : 
+		{
+			"id" : "sprControlHud",
+			"imageFile" : "controlHUD.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

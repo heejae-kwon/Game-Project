@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"button.png.prop" : 
+		{
+			"id" : "sprButton",
+			"imageFile" : "button.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

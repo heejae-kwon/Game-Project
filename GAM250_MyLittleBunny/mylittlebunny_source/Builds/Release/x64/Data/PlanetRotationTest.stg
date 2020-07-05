@@ -1,0 +1,262 @@
+{
+	"ActorList" : 
+	[
+		"player",
+		"planet1",
+		"planet2",
+		"camera"
+	],
+	"Actors" : 
+	{
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 3
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 380
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanets"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 0,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-1027.199951171875,
+					-523.2000732421875,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.5,
+					1.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 510
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"RIGIDBODY",
+				"CIRCLE_COLLIDER"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 4,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanets"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 0,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					1060.7999267578125,
+					55.199981689453125,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					2,
+					2
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"player" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 130
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlayer"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 0,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-756,
+					219.99993896484375,
+					5
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"bunny.png.prop",
+		"bunny.png.prop",
+		"bunny.png.prop",
+		"planets.png.prop",
+		"planets.png.prop",
+		"planets.png.prop",
+		"planets.png.prop",
+		"planets.png.prop",
+		"planets.png.prop",
+		"planets.png.prop"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"special.wav.prop" : 
+		{
+			"audioFile" : "special.wav",
+			"id" : "sndSpecial",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

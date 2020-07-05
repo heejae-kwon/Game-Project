@@ -1,0 +1,210 @@
+{
+	"ActorList" : 
+	[
+		"BackGround",
+		"Star",
+		"HowtoKIll",
+		"Skey"
+	],
+	"Actors" : 
+	{
+		"BackGround" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHTPBackground"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-4,
+					-1,
+					9.5
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.64999967813491821,
+					0.64999967813491821
+				],
+				"size" : 
+				[
+					800,
+					400
+				]
+			},
+			"isActive" : true
+		},
+		"HowtoKIll" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animHowtoKill",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHowtoKill"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-12.18157958984375,
+					-13.125,
+					9.8000001907348633
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.75,
+					0.75
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Skey" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutX"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					230,
+					-186,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.49999991059303284,
+					0.49999991059303284
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Star" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					163,
+					-189.99993896484375,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.099999964237213135,
+					0.099999964237213135
+				],
+				"size" : 
+				[
+					64,
+					64
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"HowtoPlay.png.prop",
+		"Star.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"FeverGuide.png.prop",
+		"PoundingGuide.png.prop",
+		"HelpBack.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animHTPFever.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"HowtoKill.png.prop",
+		"animHowtoKill.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Tut_Xkey.png.prop"
+	]
+}

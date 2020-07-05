@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"GodMode.png.prop" : 
+		{
+			"id" : "sprGODMODE",
+			"imageFile" : "GodMode.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

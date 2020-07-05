@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"lose.mp3.prop" : 
+		{
+			"audioFile" : "lose.mp3",
+			"id" : "sndLose",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

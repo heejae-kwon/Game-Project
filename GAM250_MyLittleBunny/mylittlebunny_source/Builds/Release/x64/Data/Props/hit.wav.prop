@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"hit.wav.prop" : 
+		{
+			"audioFile" : "hit.wav",
+			"id" : "sndHit",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

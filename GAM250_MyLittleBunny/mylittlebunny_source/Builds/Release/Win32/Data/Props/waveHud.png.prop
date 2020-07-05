@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"waveHud.png.prop" : 
+		{
+			"id" : "sprWaveHud",
+			"imageFile" : "waveHud.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

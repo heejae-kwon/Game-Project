@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"win.ogg.prop" : 
+		{
+			"audioFile" : "win.ogg",
+			"id" : "sndWin",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

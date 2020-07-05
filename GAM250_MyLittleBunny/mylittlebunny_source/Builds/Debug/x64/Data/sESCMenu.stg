@@ -1,0 +1,150 @@
+{
+	"ActorList" : 
+	[
+		"optionScreen",
+		"Star",
+		"background"
+	],
+	"Actors" : 
+	{
+		"Star" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					128,
+					99.20001220703125,
+					8.5
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.099999964237213135,
+					0.099999964237213135
+				],
+				"size" : 
+				[
+					64,
+					64
+				]
+			},
+			"isActive" : true
+		},
+		"background" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHTPBackground"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-16.79998779296875,
+					0.79998779296875,
+					8
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.69999998807907104,
+					0.69999998807907104
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"optionScreen" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprESCMenu"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					42.4000244140625,
+					-8.79998779296875,
+					8.5
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					700,
+					420
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"OptionScreen.png.prop",
+		"Star.png.prop",
+		"ESCMenu.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"HelpBack.png.prop",
+		"HelpBack.png.prop"
+	]
+}

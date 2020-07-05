@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"360_B.png.prop" : 
+		{
+			"id" : "sprPadB",
+			"imageFile" : "360_B.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"fireWork.png.prop" : 
+		{
+			"id" : "sprFireWork",
+			"imageFile" : "fireWork.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"EnemySheet2.png.prop" : 
+		{
+			"id" : "sprEnemySheet2",
+			"imageFile" : "EnemySheet2.png",
+			"spriteDm" : 
+			[
+				0.25,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

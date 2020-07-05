@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"special.ogg.prop" : 
+		{
+			"audioFile" : "special.ogg",
+			"id" : "sndSpecial",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 0.69999998807907104
+		}
+	}
+}

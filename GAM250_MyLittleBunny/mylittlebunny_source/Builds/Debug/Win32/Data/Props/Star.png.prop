@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Star.png.prop" : 
+		{
+			"id" : "sprStar",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+		    "imageFile" : "Star.png",
+			"type" : "IMAGE"
+		}
+	}
+}

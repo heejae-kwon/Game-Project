@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"AllPlanetSpritesheet.png.prop" : 
+		{
+			"id" : "sprPlanetsSheet",
+			"imageFile" : "AllPlanetSpritesheet.png",
+			"spriteDm" : 
+			[
+				0.25,
+				0.25
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

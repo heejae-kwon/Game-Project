@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"storySheet.png.prop" : 
+		{
+			"id" : "sprStory",
+			"imageFile" : "storySheet.png",
+			"spriteDm" : 
+			[
+				0.33333000540733337,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

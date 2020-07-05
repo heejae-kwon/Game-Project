@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"ESCMenu.png.prop" : 
+		{
+			"id" : "sprESCMenu",
+			"imageFile" : "ESCMenu.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

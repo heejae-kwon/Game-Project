@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"timesTwo.png.prop" : 
+		{
+			"id" : "sprEnemNum",
+			"imageFile" : "timesTwo.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

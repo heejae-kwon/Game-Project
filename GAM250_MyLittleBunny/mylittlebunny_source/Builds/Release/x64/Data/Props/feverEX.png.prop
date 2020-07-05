@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"feverEX.png.prop" : 
+		{
+			"id" : "sprfeverEX",
+			"imageFile" : "feverEX.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

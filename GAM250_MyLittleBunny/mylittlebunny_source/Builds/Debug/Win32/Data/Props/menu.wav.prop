@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"menu.wav.prop" : 
+		{
+			"audioFile" : "menu.wav",
+			"id" : "sndMenu",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

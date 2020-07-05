@@ -1,0 +1,340 @@
+{
+	"ActorList" : 
+	[
+		"camera",
+		"DigipenLogo",
+		"TeamLogo",
+		"FmodLogo",
+		"GamepadLogo",
+		"Story",
+		"StoryToStart"
+	],
+	"Actors" : 
+	{
+		"DigipenLogo" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					0
+				],
+				"textureId" : "sprLogoDigi"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.4999995231628418,
+					1.4999995231628418
+				],
+				"size" : 
+				[
+					512,
+					128
+				]
+			},
+			"isActive" : true
+		},
+		"FmodLogo" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					0
+				],
+				"textureId" : "sprLogoFmod"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.49999988079071045,
+					0.49999988079071045
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"GamepadLogo" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					0
+				],
+				"textureId" : "sprLogoGamepad"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.74999994039535522,
+					0.49999988079071045
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"Story" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animStory",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 3,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStory"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.64999991655349731,
+					0.5499998927116394
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"StoryToStart" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animStart",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStoryToStart"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					-225,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.87000000476837158,
+					1.0999999046325684
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"TeamLogo" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					0
+				],
+				"textureId" : "sprLogoTeam"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					512,
+					420
+				]
+			},
+			"isActive" : false
+		},
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 1
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0,
+					0
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		}
+	},
+	"PropList" : 
+	[
+		"TeamLogo.png.prop",
+		"DigipenLogo.png.prop",
+		"menu.ogg.prop",
+		"jump.ogg.prop",
+		"fly.ogg.prop",
+		"hit.ogg.prop",
+		"lose.ogg.prop",
+		"win.ogg.prop",
+		"logo.ogg.prop",
+		"spaceship.ogg.prop",
+		"fmod.png.prop",
+		"gamepad.png.prop",
+		"storySheet.png.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"animStory.prop",
+		"story.png.prop",
+		"animStart.prop",
+		"360_B.png.prop",
+		"story.ogg.prop"
+	]
+}

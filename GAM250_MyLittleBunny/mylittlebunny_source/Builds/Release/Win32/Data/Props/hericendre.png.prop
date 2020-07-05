@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"hericendre.png.prop" : 
+		{
+			"id" : "sprHericendre",
+			"imageFile" : "hericendre.png",
+			"spriteDm" : 
+			[
+				0.16666659712791443,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,334 @@
+{
+	"ActorList" : 
+	[
+		"player",
+		"planet",
+		"camera",
+		"particleEmitter",
+		"particleEmitter2"
+	],
+	"Actors" : 
+	{
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 2
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"particleEmitter" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"PARTICLEEMITTER",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 50,
+				"lifetime" : 0,
+				"maxscale" : 100,
+				"maxvel" : 100,
+				"minscale" : 0,
+				"minvel" : 0,
+				"particleType" : "THREE",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					20,
+					20
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.20000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"particleEmitter2" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"PARTICLEEMITTER"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 100,
+				"lifetime" : 0,
+				"maxscale" : 40,
+				"maxvel" : 100,
+				"minscale" : 0,
+				"minvel" : 0,
+				"particleType" : "THREE",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					10,
+					10
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					200,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.20000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 233
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					78.000007629394531,
+					158.00001525878906,
+					-1
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"player" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 60
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlayer"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 45000,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-312.00003051757813,
+					490.00006103515625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"bunny.png.prop",
+		"EnemiesSheet.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Star.png.prop"
+	]
+}

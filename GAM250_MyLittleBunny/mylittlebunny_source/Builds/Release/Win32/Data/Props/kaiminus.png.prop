@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"kaiminus.png.prop" : 
+		{
+			"id" : "sprKaiminus",
+			"imageFile" : "kaiminus.png",
+			"spriteDm" : 
+			[
+				0.19999983906745911,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

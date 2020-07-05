@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"WinScreen.png.prop" : 
+		{
+			"id" : "sprWinScreen",
+			"imageFile" : "WinScreen.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

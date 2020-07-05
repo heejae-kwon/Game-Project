@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"core.png.prop" : 
+		{
+			"id" : "sprCore",
+			"imageFile" : "core.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

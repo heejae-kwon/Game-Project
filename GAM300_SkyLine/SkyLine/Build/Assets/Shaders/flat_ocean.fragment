@@ -1,0 +1,17 @@
+#version 430 core
+out vec4 FragColor;
+
+in vec4 ourColor;
+in vec2 TexCoord;
+
+// texture samplers
+uniform sampler2D texture1;
+
+void main()
+{
+	//FragColor = ourColor;
+	//FragColor.b = 0.745f;
+	//FragColor.g = 0.467f;
+	//FragColor.r = 0.1f;
+	FragColor = texture(texture1, TexCoord);
+}

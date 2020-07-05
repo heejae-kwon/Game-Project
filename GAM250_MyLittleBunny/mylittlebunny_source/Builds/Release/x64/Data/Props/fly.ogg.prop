@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"fly.ogg.prop" : 
+		{
+			"audioFile" : "fly.ogg",
+			"id" : "sndFly",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

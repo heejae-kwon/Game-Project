@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"bg3.mp3.prop" : 
+		{
+			"audioFile" : "bg3.mp3",
+			"id" : "sndBG3",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"ActorList" : 
+	[
+		"camera"
+	],
+	"Actors" : 
+	{
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 10
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+
+	]
+}

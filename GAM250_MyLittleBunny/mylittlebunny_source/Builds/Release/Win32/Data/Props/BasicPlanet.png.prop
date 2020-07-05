@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"BasicPlanet.png.prop" : 
+		{
+			"id" : "sprAsteroid",
+			"imageFile" : "BasicPlanet.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

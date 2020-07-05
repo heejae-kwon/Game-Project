@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Tut_Akey.png.prop" : 
+		{
+			"id" : "sprTutAkey",
+			"imageFile" : "Tut_Akey.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"HelpBack.png.prop" : 
+		{
+			"id" : "sprHTPBackground",
+			"imageFile" : "HelpBack.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

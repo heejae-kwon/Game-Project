@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"credit.mp3.prop" : 
+		{
+			"audioFile" : "credit.mp3",
+			"id" : "sndCredit",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

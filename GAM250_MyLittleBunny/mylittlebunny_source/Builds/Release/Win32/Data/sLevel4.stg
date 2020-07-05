@@ -1,0 +1,2849 @@
+{
+	"ActorList" : 
+	[
+		"camera",
+		"player",
+		"planet1-2",
+		"planet2-1",
+		"planet1-1",
+		"button",
+		"core",
+		"hud",
+		"station1",
+		"Star",
+		"planet1-3",
+		"planet2-2",
+		"station2",
+		"GageBunny",
+		"farAsteroid",
+		"nearAsteroid",
+		"xHelp",
+		"ArrowHUD",
+		"EnemyHUD",
+		"firstNumber",
+		"Fever",
+		"WaveAlarm",
+		"secondNumber",
+		"WaveHUD",
+		"waveNumber",
+		"leftWaveNumber",
+		"waveBarHUD",
+		"planet2-3",
+		"ruleHUD",
+		"ArrowHUD1",
+		"ArrowHUD2",
+		"Skey1",
+		"Skey2",
+		"_LevelSetting",
+		"planet3-1",
+		"planet3-2",
+		"planet3-3",
+		"station3",
+		"CheatAvailable",
+		"GageBar",
+		"GageBound",
+		"planet4-1",
+		"planet4-2",
+		"planet4-3",
+		"station4",
+		"GODMODE"
+	],
+	"Actors" : 
+	{
+		"ArrowHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animArrow",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprArrow"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-537.5999755859375,
+					260,
+					0
+				],
+				"rotation" : -16,
+				"scale" : 
+				[
+					0.099999845027923584,
+					0.099999845027923584
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"ArrowHUD1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animWaveAlarm",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprArrow"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-400,
+					-250,
+					8
+				],
+				"rotation" : 220,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.15000000596046448
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"ArrowHUD2" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animWaveAlarm",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprArrow"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					300,
+					250,
+					8
+				],
+				"rotation" : 40,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.15000000596046448
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"CheatAvailable" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprCheatAvailable"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					498,
+					287,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.39999997615814209,
+					0.39999997615814209
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"EnemyHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 2,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprEnemiesSheet"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					46.4000244140625,
+					304.79998779296875,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.59999990463256836,
+					0.49999988079071045
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Fever" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprFever"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-551.20001220703125,
+					222.39999389648438,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.39999985694885254,
+					0.39999985694885254
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"GageBar" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					0,
+					0,
+					1
+				],
+				"textureId" : "sprWaveBar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-560,
+					0,
+					9.5
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.69999998807907104,
+					0
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"GODMODE" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprGODMODE"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					536.800048828125,
+					220.80000305175781,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"GageBound" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					0.5,
+					0.5,
+					0.5,
+					1
+				],
+				"textureId" : "sprWaveBar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-560,
+					0,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.69999998807907104,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"GageBunny" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprChange"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-560.35137939453125,
+					-217.5,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Skey1" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animXkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutX"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-1801.489013671875,
+					1137.4234619140625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Skey2" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animXkey",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutX"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					696.91094970703125,
+					1751.023681640625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"Star" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-587,
+					299,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.14999984204769135,
+					0.14999984204769135
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"WaveAlarm" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animWaveAlarm",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprWaveAlarm"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					7
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.2499997615814209,
+					1.3999999761581421
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"WaveHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprWaveHud"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-115.20001220703125,
+					297.60000610351563,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.099999845027923584,
+					0.099999845027923584
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"_LevelSetting" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"GAMEPLAY"
+			],
+			"GAMEPLAY" : 
+			{
+				"hp" : 0,
+				"isFinalLevel" : true,
+				"numberEnemyStep" : 8,
+				"numberOfRounds" : 4,
+				"startingNbrEnemies" : 5
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"button" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprButton"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					-235,
+					0
+				],
+				"rotation" : 180,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 3
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					583.888427734375,
+					731.3756103515625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"core" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animSpin",
+				"drawType" : "SPRITE",
+				"loopAnim" : true,
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprCore"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-800,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"farAsteroid" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 4,
+				"textureColor" : 
+				[
+					0.20000000298023224,
+					0.20000000298023224,
+					0.20000000298023224,
+					1
+				],
+				"textureId" : "sprAsteroid"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-321,
+					187,
+					-5
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.20000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"firstNumber" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprNumbers"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					72.79998779296875,
+					291.20001220703125,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.20000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"hud" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHUD"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-560,
+					4.79998779296875,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.19999977946281433,
+					0.69999986886978149
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"leftWaveNumber" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprNumbers"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-82.4000244140625,
+					304,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.17000000178813934,
+					0.17000000178813934
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"nearAsteroid" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 4,
+				"textureColor" : 
+				[
+					0.40000000596046448,
+					0.40000000596046448,
+					0.40000000596046448,
+					1
+				],
+				"textureId" : "sprAsteroid"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					322,
+					831,
+					-2
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet1-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 505
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					2,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 150,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-2727.8896484375,
+					-1186.5758056640625,
+					0
+				],
+				"rotation" : 45,
+				"scale" : 
+				[
+					2.1000001430511475,
+					2.1000001430511475
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet1-2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 355
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 13,
+				"textureColor" : 
+				[
+					1,
+					1.7999999523162842,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 120,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-4287.8896484375,
+					-510.57571411132813,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.4999997615814209,
+					1.4999997615814209
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet1-3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 395
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					1.5,
+					2,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 110,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-4204.689453125,
+					-2226.57568359375,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.7000000476837158,
+					1.7000000476837158
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet2-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 455
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					2,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 150,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					1566.510009765625,
+					1582.22412109375,
+					0
+				],
+				"rotation" : -90,
+				"scale" : 
+				[
+					1.9000002145767212,
+					1.9000002145767212
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet2-2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 265
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 13,
+				"textureColor" : 
+				[
+					1,
+					1,
+					2,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 120,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					2559.31005859375,
+					2495.024169921875,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.1999998092651367,
+					1.1999998092651367
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet2-3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 265
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 9,
+				"textureColor" : 
+				[
+					2,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 100,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					3048.1103515625,
+					1502.224365234375,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.2000000476837158,
+					1.2000000476837158
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet3-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 510
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 9,
+				"textureColor" : 
+				[
+					1.5,
+					1,
+					2,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 150,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					1086.51025390625,
+					-785.775634765625,
+					0
+				],
+				"rotation" : 45,
+				"scale" : 
+				[
+					2.2000000476837158,
+					2.2000000476837158
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet3-2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 369
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					1.5,
+					1.5,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 120,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					2846.510009765625,
+					-808.17572021484375,
+					0
+				],
+				"rotation" : 45,
+				"scale" : 
+				[
+					1.5999999046325684,
+					1.5999999046325684
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet3-3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 400
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 13,
+				"textureColor" : 
+				[
+					1,
+					1.2000000476837158,
+					2,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 150,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					1131.31005859375,
+					-2318.57568359375,
+					0
+				],
+				"rotation" : 236,
+				"scale" : 
+				[
+					1.6999998092651367,
+					1.6999998092651367
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet4-1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 510
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					2,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 150,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-2696.689697265625,
+					1642.224365234375,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					2.2000000476837158,
+					2.2000000476837158
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet4-2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 280
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					1,
+					2,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 120,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-4256.689453125,
+					1933.424072265625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1.2999999523162842,
+					1.2999999523162842
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"planet4-3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : false,
+				"radius" : 480
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"GAMEPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 9,
+				"textureColor" : 
+				[
+					2,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprPlanetsSheet"
+			},
+			"GAMEPLAY" : 
+			{
+				"hp" : 150,
+				"isFinalLevel" : false,
+				"nextLevelName" : "NO_VALUE",
+				"numberEnemyStep" : 0,
+				"numberOfRounds" : 0,
+				"startingNbrEnemies" : 0
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					2785.710205078125,
+					-2395.3759765625,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					2.0999999046325684,
+					2.0999999046325684
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"player" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 200
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"PARTICLEEMITTER"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprRocketPlayer"
+			},
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 0,
+				"lifetime" : 2.5,
+				"loop" : true,
+				"maxscale" : 130,
+				"maxvel" : 60,
+				"minscale" : 0,
+				"minvel" : 0,
+				"particleType" : "THREE",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					20,
+					50
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprBasicParticle"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0.40000000596046448,
+				"friction_static" : 0,
+				"gravity_x" : -2727.8896484375,
+				"gravity_y" : -1186.5758056640625,
+				"gravityscale" : 45000,
+				"inertia" : 0,
+				"mass" : 10,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : false,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-415.08935546875,
+					264.6234130859375,
+					2
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.80000001192092896,
+					0.80000001192092896
+				],
+				"size" : 
+				[
+					256,
+					256
+				]
+			},
+			"isActive" : true
+		},
+		"ruleHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprRule"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.89999997615814209,
+					0.89999997615814209
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"secondNumber" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprNumbers"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					96.79998779296875,
+					291.20001220703125,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.20000000298023224,
+					0.20000000298023224
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station1" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 95
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-2228.689697265625,
+					-739.3758544921875,
+					1
+				],
+				"rotation" : -50,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station2" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 100
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					1015.3106079101563,
+					1751.024169921875,
+					1
+				],
+				"rotation" : 79,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station3" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 140
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					609.7100830078125,
+					-286.57568359375,
+					0
+				],
+				"rotation" : 41,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"station4" : 
+		{
+			"CIRCLE_COLLIDER" : 
+			{
+				"ghost" : true,
+				"radius" : 140
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY",
+				"CIRCLE_COLLIDER",
+				"RIGIDBODY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "SPRITE",
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprSpaceshipLauncher"
+			},
+			"RIGIDBODY" : 
+			{
+				"force_x" : 0,
+				"force_y" : 0,
+				"friction_dynamic" : 0,
+				"friction_static" : 0,
+				"gravity_x" : 0,
+				"gravity_y" : 0,
+				"gravityscale" : 0,
+				"inertia" : 0,
+				"mass" : 100,
+				"restitution" : 0,
+				"rotvel" : 0,
+				"staticstate" : true,
+				"torque" : 0,
+				"vel_x" : 0,
+				"vel_y" : 0
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-2135.089599609375,
+					1309.4241943359375,
+					0
+				],
+				"rotation" : -125,
+				"scale" : 
+				[
+					0.60000002384185791,
+					0.60000002384185791
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"waveBarHUD" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprWaveBar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-69.5999755859375,
+					297.60000610351563,
+					9
+				],
+				"rotation" : -41,
+				"scale" : 
+				[
+					0.049999844282865524,
+					0.19999983906745911
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"waveNumber" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 5,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprNumbers"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-57.5999755859375,
+					273.60000610351563,
+					9
+				],
+				"rotation" : -1,
+				"scale" : 
+				[
+					0.17000000178813934,
+					0.17000000178813934
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"xHelp" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animAkey",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprTutAkey"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-561.5999755859375,
+					-282.4000244140625,
+					9
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.39999997615814209,
+					0.39999997615814209
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		}
+	},
+	"PropList" : 
+	[
+		"animPlayerWalk.prop",
+		"bunny.png.prop",
+		"Star.png.prop",
+		"movmov2.png.prop",
+		"planets.png.prop",
+		"SpaceShip.png.prop",
+		"animSpin.prop",
+		"hudSheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"AllPlanetSpritesheet.png.prop",
+		"animDamage.prop",
+		"EnemiesSheet.png.prop",
+		"animPunch.prop",
+		"Rocket.png.prop",
+		"twinkle.png.prop",
+		"animPunch.png.prop",
+		"ChangeCharacter2.png.prop",
+		"sign.png.prop",
+		"SpaceshipLauncher.png.prop",
+		"movmov3.png.prop",
+		"animChangePlayer.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animBasicPunch.prop",
+		"particle.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"lightHUD.png.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"animBackgroundStar.prop",
+		"flyPlayer.png.prop",
+		"fireWork.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animPounding.prop",
+		"DownPlayer.png.prop",
+		"DownPlayer.png.prop",
+		"animShaking.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"BasicPlanet.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Tut_Xkey.png.prop",
+		"Tut_Xkey.png.prop",
+		"animXkey.prop",
+		"Fever.png.prop",
+		"animFlying.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"WaveAlarm.png.prop",
+		"animArrowkey.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Arrow.png.prop",
+		"animAkey.prop",
+		"Tut_Akey.png.prop",
+		"Tut_Akey.png.prop",
+		"numSheet.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"Tut_Akey.png.prop",
+		"Tut_Akey.png.prop",
+		"animWaveAlarm.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"animEnemyPump.prop",
+		"waveHud.png.prop",
+		"waveHud.png.prop",
+		"waveBarHud.png.prop",
+		"Goal.png.prop",
+		"Tut_Upkey.png.prop",
+		"animUpkey.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"feverEX.png.prop",
+		"107-battle-vs-wild-pokemon-.mp3.prop",
+		"HPbar.png.prop"
+	]
+}

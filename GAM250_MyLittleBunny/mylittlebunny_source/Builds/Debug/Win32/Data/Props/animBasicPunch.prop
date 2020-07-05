@@ -1,0 +1,53 @@
+{
+	"Props" : 
+	{
+		"animBasicPunch.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animBasicPunch",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.20000000298023224,
+					"rotation" : 0,
+					"spriteIndex" : 5,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.20000000298023224,
+					"rotation" : 0,
+					"spriteIndex" : 6,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				}
+			],
+			"spriteOverride" : true,
+			"textureId" : "sprBasicPlayer",
+			"transformOverride" : false,
+			"type" : "ANIMATION"
+		}
+	}
+}

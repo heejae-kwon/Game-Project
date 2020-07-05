@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"gamepad.png.prop" : 
+		{
+			"id" : "sprLogoGamepad",
+			"imageFile" : "gamepad.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

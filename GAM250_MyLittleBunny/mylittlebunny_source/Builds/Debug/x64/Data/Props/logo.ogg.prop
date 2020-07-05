@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"logo.ogg.prop" : 
+		{
+			"audioFile" : "logo.ogg",
+			"id" : "sndDigilogo",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 0.60000002384185791
+		}
+	}
+}

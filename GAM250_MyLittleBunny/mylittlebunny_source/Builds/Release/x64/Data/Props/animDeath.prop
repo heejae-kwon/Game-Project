@@ -1,0 +1,86 @@
+{
+	"Props" : 
+	{
+		"animDeath.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animDeath",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.80000001192092896,
+					"rotation" : 360,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.20000000298023224,
+					"rotation" : 350,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						3,
+						1,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 15,
+					"rotation" : 270,
+					"scale" : 
+					[
+						0,
+						0
+					],
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						25,
+						-10,
+						0
+					]
+				}
+			],
+			"spriteOverride" : false,
+			"transformInterpolate" : true,
+			"transformOverride" : true,
+			"type" : "ANIMATION"
+		}
+	}
+}

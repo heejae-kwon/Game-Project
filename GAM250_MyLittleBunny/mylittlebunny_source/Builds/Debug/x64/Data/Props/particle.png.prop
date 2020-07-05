@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"particle.png.prop" : 
+		{
+			"id" : "sprParticle",
+			"imageFile" : "particle.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

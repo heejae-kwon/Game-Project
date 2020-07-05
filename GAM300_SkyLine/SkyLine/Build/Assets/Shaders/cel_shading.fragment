@@ -1,0 +1,50 @@
+#version 430 core
+
+out vec4 FragColor;
+
+in VS_OUT {
+    vec3 FragPos;
+    vec3 Normal;
+    vec2 TexCoords;
+} fs_in;
+
+struct LightInfo {
+ vec4 position;
+ vec3 intensity;
+};
+
+uniform sampler2D texture1;
+uniform bool textured;
+
+uniform LightInfo Light;
+uniform vec3 Kd; // Diffuse reflectivity
+uniform vec3 Ka; // Ambient reflectivity
+//vec3 Ks = vec3(10.0f, 10.0f, 10.0f);
+
+const int levels = 6;
+const float scaleFactor = 1.0 / levels;
+
+vec3 toonShade()
+{
+ vec3 s = normalize( vec3(Light.position.xyz) - fs_in.FragPos );
+ float cosine = max( 0.0, dot( s, fs_in.Normal ) );
+ vec3 diffuse = Kd * floor( cosine * levels ) * scaleFactor;
+ return Light.intensity * (Ka + diffuse);
+}
+
+void main() {
+ if (textured)
+ {
+  vec4 textureColor = texture(texture1, fs_in.TexCoords);
+  //FragColor = vec4(toonShade() * textureColor, 1.0f);
+  FragColor = textureColor;
+ } 
+ else 
+ {
+  FragColor = vec4(toonShade(), 1.0f);
+ }
+
+ // VERY useful debugger to see if normals are correct
+ // Uncomment this and comment out above
+ //FragColor = vec4(fs_in.Normal * vec3(0.5f, .5f, .5f) + vec3(0.5f, .5f, .5f), 1.0f);
+}

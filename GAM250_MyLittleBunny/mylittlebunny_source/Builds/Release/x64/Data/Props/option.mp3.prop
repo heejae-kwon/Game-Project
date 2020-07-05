@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"option.mp3.prop" : 
+		{
+			"audioFile" : "option.mp3",
+			"id" : "sndOption",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

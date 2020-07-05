@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"germinion.png.prop" : 
+		{
+			"id" : "sprGerminion",
+			"imageFile" : "germinion.png",
+			"spriteDm" : 
+			[
+				0.14200000464916229,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

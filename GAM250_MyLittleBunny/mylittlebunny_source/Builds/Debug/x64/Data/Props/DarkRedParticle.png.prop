@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"DarkRedParticle.png.prop" : 
+		{
+			"id" : "sprDarkRedParticle",
+			"imageFile" : "DarkRedParticle.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

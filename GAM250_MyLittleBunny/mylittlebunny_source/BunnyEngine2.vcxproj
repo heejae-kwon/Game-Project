@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Abstractions\AudioAbst.cpp" />
+    <ClCompile Include="src\Abstractions\ImGuiAbst.cpp" />
+    <ClCompile Include="src\Abstractions\RenderAbst.cpp" />
+    <ClCompile Include="src\Abstractions\WindowAbst.cpp" />
+    <ClCompile Include="src\Actor.cpp" />
+    <ClCompile Include="src\BaseStage.cpp" />
+    <ClCompile Include="src\BunnyEngine.cpp" />
+    <ClCompile Include="src\Components\Camera.cpp" />
+    <ClCompile Include="src\Components\CircleCollider.cpp" />
+    <ClCompile Include="src\Components\Display.cpp" />
+    <ClCompile Include="src\Components\Gameplay.cpp" />
+    <ClCompile Include="src\Components\ParticleEmitter.cpp" />
+    <ClCompile Include="src\Components\Rigidbody.cpp" />
+    <ClCompile Include="src\Components\Transform.cpp" />
+    <ClCompile Include="src\Core\BaseCore.cpp" />
+    <ClCompile Include="src\Core\Debugger.cpp" />
+    <ClCompile Include="src\Core\Draw.cpp" />
+    <ClCompile Include="src\Core\Event.cpp" />
+    <ClCompile Include="src\Core\Particle.cpp" />
+    <ClCompile Include="src\emptyStage.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\inputAbstraction.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\LevelSetting.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\Objects.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oCamera.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oEnemy.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oPlanet.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\oPlayer.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\PlanetRotationTest.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sConfirmMenu.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sConfirmQuit.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sConfirmRestart.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sCredit.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sESCMenu.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sGameStage.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sHowtoKill.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sHowtoPlay.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sHowtoPowerup.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLegacyLogo.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLegacyMenu.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sLoseScreen.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sOption.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sPokemon.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sRocketDestinationSelect.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sRocketDestMenu.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sTestLevel.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sTutorial.cpp" />
+    <ClCompile Include="src\GAME_SPECIFIC_FILES\sWinScreen.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Props\Animation.cpp" />
+    <ClCompile Include="src\Props\Audio.cpp" />
+    <ClCompile Include="src\Props\BaseProp.cpp" />
+    <ClCompile Include="src\Props\Image.cpp" />
+    <ClCompile Include="src\Utilities\BagOfGoodies.cpp" />
+    <ClCompile Include="src\Utilities\DearImGuiHelperFunc.cpp" />
+    <ClCompile Include="src\Utilities\FileHandler.cpp" />
+    <ClCompile Include="src\Utilities\JsonReader.cpp" />
+    <ClCompile Include="src\Utilities\JsonWriter.cpp" />
+    <ClCompile Include="src\Utilities\TimerManager.cpp" />
+    <ClCompile Include="src\Utilities\Timer.cpp" />
+    <ClCompile Include="src\WIP\Gamepad.cpp" />
+    <ClCompile Include="src\WIP\HBIntersection.cpp" />
+    <ClCompile Include="src\WIP\HBMath.cpp" />
+    <ClCompile Include="src\WIP\HBRandom.cpp" />
+    <ClCompile Include="src\WIP\HBVec2.cpp" />
+    <ClCompile Include="src\WIP\Keyboard.cpp" />
+    <ClCompile Include="src\WIP\Mouse.cpp" />
+    <ClCompile Include="src\WIP\Pair.cpp" />
+    <ClCompile Include="src\WIP\Physics.cpp" />
+    <ClCompile Include="src\WIP\PropManager.cpp" />
+    <ClCompile Include="src\WIP\Shader.cpp" />
+    <ClCompile Include="src\WIP\Texture.cpp" />
+    <ClCompile Include="src\_NonNativeCode\DearImgui_Bindings\imgui.cpp" />
+    <ClCompile Include="src\_NonNativeCode\DearImgui_Bindings\imgui_draw.cpp" />
+    <ClCompile Include="src\_NonNativeCode\DearImgui_Bindings\imgui_impl_sdl_gl3.cpp" />
+    <ClCompile Include="src\_NonNativeCode\GL3W\gl3w.c" />
+    <ClCompile Include="src\_NonNativeCode\jsoncpp\jsoncpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Abstractions\AudioAbst.hpp" />
+    <ClInclude Include="src\Abstractions\ImGuiAbst.hpp" />
+    <ClInclude Include="src\Abstractions\RenderAbst.hpp" />
+    <ClInclude Include="src\Abstractions\WindowAbst.hpp" />
+    <ClInclude Include="src\Actor.hpp" />
+    <ClInclude Include="src\BaseStage.hpp" />
+    <ClInclude Include="src\BunnyEngine.hpp" />
+    <ClInclude Include="src\Components\BaseComponent.hpp" />
+    <ClInclude Include="src\Components\Camera.hpp" />
+    <ClInclude Include="src\Components\CircleCollider.hpp" />
+    <ClInclude Include="src\Components\Components.hh" />
+    <ClInclude Include="src\Components\Display.hpp" />
+    <ClInclude Include="src\Components\Gameplay.hpp" />
+    <ClInclude Include="src\Components\ParticleEmitter.hpp" />
+    <ClInclude Include="src\Components\Rigidbody.hpp" />
+    <ClInclude Include="src\Components\Transform.hpp" />
+    <ClInclude Include="src\Core\BaseCore.hpp" />
+    <ClInclude Include="src\Core\Debugger.hpp" />
+    <ClInclude Include="src\Core\Draw.hpp" />
+    <ClInclude Include="src\Core\Event.hpp" />
+    <ClInclude Include="src\Core\Particle.hpp" />
+    <ClInclude Include="src\emptyStage.hpp" />
+    <ClInclude Include="src\EventTypes.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\inputAbstraction.hh" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\LevelSetting.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\logicFunctions.hh" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\Objects.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oCamera.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oEnemy.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oPlanet.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\oPlayer.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\PlanetRotationTest.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sConfirmMenu.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sConfirmQuit.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sConfirmRestart.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sCredit.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sESCMenu.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sGameStage.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sHowtoKill.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sHowtoPlay.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sHowtoPowerup.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sLegacyLogo.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sLegacyMenu.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sLoseScreen.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sOption.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sPokemon.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sRocketDestinationSelect.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sRocketDestMenu.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sTestLevel.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sTutorial.hpp" />
+    <ClInclude Include="src\GAME_SPECIFIC_FILES\sWinScreen.hpp" />
+    <ClInclude Include="src\Props\Animation.hpp" />
+    <ClInclude Include="src\Props\Audio.hpp" />
+    <ClInclude Include="src\Props\BaseProp.hpp" />
+    <ClInclude Include="src\Props\Image.hpp" />
+    <ClInclude Include="src\Props\Props.hh" />
+    <ClInclude Include="src\Utilities\BagOfGoodies.hh" />
+    <ClInclude Include="src\Utilities\crc32.hh" />
+    <ClInclude Include="src\Utilities\DearImGuiHelperFunc.hh" />
+    <ClInclude Include="src\Utilities\FileHandler.hh" />
+    <ClInclude Include="src\Utilities\JsonReader.hh" />
+    <ClInclude Include="src\Utilities\JsonWriter.hh" />
+    <ClInclude Include="src\Utilities\TimerManager.hpp" />
+    <ClInclude Include="src\Utilities\Timer.hpp" />
+    <ClInclude Include="src\WIP\Gamepad.hpp" />
+    <ClInclude Include="src\WIP\HBIntersection.hpp" />
+    <ClInclude Include="src\WIP\HBMath.hpp" />
+    <ClInclude Include="src\WIP\HBRandom.hpp" />
+    <ClInclude Include="src\WIP\HBVec2.hpp" />
+    <ClInclude Include="src\WIP\Keyboard.hpp" />
+    <ClInclude Include="src\WIP\keycode.hh" />
+    <ClInclude Include="src\WIP\Mouse.hpp" />
+    <ClInclude Include="src\WIP\Pair.hpp" />
+    <ClInclude Include="src\WIP\Physics.hpp" />
+    <ClInclude Include="src\WIP\PropManager.hpp" />
+    <ClInclude Include="src\WIP\Shader.hpp" />
+    <ClInclude Include="src\WIP\Texture.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5EB258A-5AE6-4608-AE0F-E477A8A826E1}</ProjectGuid>
+    <RootNamespace>BunnyEngine2</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\Builds\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\IntermediateFiles\</IntDir>
+    <IncludePath>$(SolutionDir)/src/;$(SolutionDir)/src/_External/Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)src\_External\Libs\x86\Debug;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\Builds\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\IntermediateFiles\</IntDir>
+    <IncludePath>$(SolutionDir)/src/;$(SolutionDir)/src/_External/Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)src\_External\Libs\x86\Release;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\Builds\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\IntermediateFiles\</IntDir>
+    <IncludePath>$(SolutionDir)/src/;$(SolutionDir)/src/_External/Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)src\_External\Libs\x64\Debug;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\Builds\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\IntermediateFiles\</IntDir>
+    <IncludePath>$(SolutionDir)/src/;$(SolutionDir)/src/_External/Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)src\_External\Libs\x64\Release;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4251;4201;4702;4505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;SOIL.lib;Xinput9_1_0.lib;Winmm.lib;Xinput9_1_0.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4251;4201;4702;4505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;SOIL.lib;Xinput9_1_0.lib;Winmm.lib;Xinput9_1_0.lib;opengl32.lib;fmodL64_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4251;4201;4702;4505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;SOIL.lib;Xinput9_1_0.lib;Winmm.lib;Xinput9_1_0.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4251;4201;4702;4505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;SOIL.lib;Xinput9_1_0.lib;Winmm.lib;Xinput9_1_0.lib;fmod64_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

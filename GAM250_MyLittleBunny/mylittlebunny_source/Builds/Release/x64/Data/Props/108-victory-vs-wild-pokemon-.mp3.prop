@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"108-victory-vs-wild-pokemon-.mp3.prop" : 
+		{
+			"audioFile" : "108-victory-vs-wild-pokemon-.mp3",
+			"id" : "sndVictory",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 0.30000001192092896
+		}
+	}
+}

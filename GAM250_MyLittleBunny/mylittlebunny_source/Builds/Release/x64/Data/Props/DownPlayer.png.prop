@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"DownPlayer.png.prop" : 
+		{
+			"id" : "sprPlayerPounding",
+			"imageFile" : "DownPlayer.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

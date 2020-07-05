@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"story.ogg.prop" : 
+		{
+			"audioFile" : "story.ogg",
+			"id" : "sndStory",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

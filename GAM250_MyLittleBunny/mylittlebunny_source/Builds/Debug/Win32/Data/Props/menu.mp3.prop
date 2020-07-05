@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"menu.mp3.prop" : 
+		{
+			"audioFile" : "menu.mp3",
+			"id" : "sndMenu",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

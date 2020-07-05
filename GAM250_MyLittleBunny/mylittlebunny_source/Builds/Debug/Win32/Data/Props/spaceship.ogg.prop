@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"spaceship.ogg.prop" : 
+		{
+			"audioFile" : "spaceship.ogg",
+			"id" : "sndStation",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 0.30000001192092896
+		}
+	}
+}

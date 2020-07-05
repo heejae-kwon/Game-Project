@@ -1,0 +1,145 @@
+{
+	"ActorList" : 
+	[
+		"HowtoPlay",
+		"HowtoPlayGamePad"
+	],
+	"Actors" : 
+	{
+		"HowtoPlay" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animHTPCUT",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprHTPCUT"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					-20,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.80000007152557373,
+					0.65000003576278687
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		},
+		"HowtoPlayGamePad" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPaused" : false,
+				"animPlaying" : true,
+				"animationId" : "animGamePadHowtoPlay",
+				"drawType" : "HUD",
+				"loopAnim" : true,
+				"spriteIndex" : 1,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprGamePadInfo"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					-82,
+					10
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.60000002384185791,
+					0.59999990463256836
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		}
+	},
+	"PropList" : 
+	[
+		"Star.png.prop",
+		"smoke.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"HowtoPlay.png.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"animHowToPlay.prop",
+		"HowtoPlayCut.png.prop",
+		"animHTPCUT.prop",
+		"animGamePadHowtoPlay.prop",
+		"gamepad_icons .png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop",
+		"gamepad_icons.png.prop"
+	]
+}

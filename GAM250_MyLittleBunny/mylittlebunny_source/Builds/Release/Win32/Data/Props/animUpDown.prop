@@ -1,0 +1,53 @@
+{
+	"Props" : 
+	{
+		"animUpDown.prop" : 
+		{
+			"colorOverride" : false,
+			"id" : "animUpDown",
+			"keyFrames" : 
+			[
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 0.60000002384185791,
+					"rotation" : 0,
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						-5,
+						0
+					]
+				},
+				{
+					"color" : 
+					[
+						1,
+						1,
+						1,
+						1
+					],
+					"duration" : 1,
+					"rotation" : 0,
+					"spriteIndex" : 0,
+					"transform" : 
+					[
+						0,
+						10,
+						0
+					]
+				}
+			],
+			"spriteOverride" : false,
+			"transformInterpolate" : true,
+			"transformOverride" : true,
+			"type" : "ANIMATION"
+		}
+	}
+}

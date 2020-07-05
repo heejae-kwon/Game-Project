@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"hudSheet.png.prop" : 
+		{
+			"id" : "sprHUD",
+			"imageFile" : "hudSheet.png",
+			"spriteDm" : 
+			[
+				0.20000000298023224,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

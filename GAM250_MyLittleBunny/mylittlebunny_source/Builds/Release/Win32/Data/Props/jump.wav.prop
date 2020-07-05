@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"jump.wav.prop" : 
+		{
+			"audioFile" : "jump.wav",
+			"id" : "sndJump",
+			"isLooping" : false,
+			"type" : "AUDIO",
+			"volume" : 1
+		}
+	}
+}

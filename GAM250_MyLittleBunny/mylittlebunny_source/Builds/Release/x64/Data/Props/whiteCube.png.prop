@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"whiteCube.png.prop" : 
+		{
+			"id" : "sprWhiteCube",
+			"imageFile" : "whiteCube.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

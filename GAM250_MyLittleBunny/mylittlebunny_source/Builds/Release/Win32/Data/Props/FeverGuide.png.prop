@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"FeverGuide.png.prop" : 
+		{
+			"id" : "sprHTPFever",
+			"imageFile" : "FeverGuide.png",
+			"spriteDm" : 
+			[
+				0.33300000429153442,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

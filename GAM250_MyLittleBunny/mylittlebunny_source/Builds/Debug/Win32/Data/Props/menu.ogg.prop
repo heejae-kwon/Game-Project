@@ -1,0 +1,13 @@
+{
+	"Props" : 
+	{
+		"menu.ogg.prop" : 
+		{
+			"audioFile" : "menu.ogg",
+			"id" : "sndMenu",
+			"isLooping" : true,
+			"type" : "AUDIO",
+			"volume" : 0.60000002384185791
+		}
+	}
+}

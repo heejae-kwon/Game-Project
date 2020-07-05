@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"Tut_Space.png.prop" : 
+		{
+			"id" : "sprTutSpace",
+			"imageFile" : "Tut_Space.png",
+			"spriteDm" : 
+			[
+				0.49000000953674316,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

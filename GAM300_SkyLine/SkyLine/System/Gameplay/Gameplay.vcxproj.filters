@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Archetype.cpp" />
+    <ClCompile Include="BaseLevel.cpp" />
+    <ClCompile Include="Level_1.cpp" />
+    <ClCompile Include="Level_temp.cpp" />
+    <ClCompile Include="LogicCore.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\Chasing.cpp">
+      <Filter>Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="Magnetic.cpp">
+      <Filter>Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileExplode.cpp">
+      <Filter>Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileShooter.cpp">
+      <Filter>Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Logics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.hpp" />
+    <ClInclude Include="Archetype.hpp" />
+    <ClInclude Include="BaseLevel.hpp" />
+    <ClInclude Include="Level_1.hpp" />
+    <ClInclude Include="LogicCore.hpp" />
+    <ClInclude Include="ObjectManager.hpp" />
+    <ClInclude Include="Level_temp.hpp" />
+    <ClInclude Include="Bullet.h">
+      <Filter>Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\Chasing.hpp">
+      <Filter>Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnetic.h">
+      <Filter>Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileExplode.h">
+      <Filter>Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileShooter.h">
+      <Filter>Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.hpp">
+      <Filter>Logics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Logics">
+      <UniqueIdentifier>{5256d73b-47fb-4808-9158-3e2581096066}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

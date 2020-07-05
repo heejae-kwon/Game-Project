@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"CheatAvailable.png.prop" : 
+		{
+			"id" : "sprCheatAvailable",
+			"imageFile" : "CheatAvailable.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

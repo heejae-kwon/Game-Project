@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"WaveAlarm.png.prop" : 
+		{
+			"id" : "sprWaveAlarm",
+			"imageFile" : "WaveAlarm.png",
+			"spriteDm" : 
+			[
+				1,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}

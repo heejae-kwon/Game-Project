@@ -1,0 +1,16 @@
+{
+	"Props" : 
+	{
+		"SpaceshipLauncher.png.prop" : 
+		{
+			"id" : "sprSpaceshipLauncher",
+			"imageFile" : "SpaceshipLauncher.png",
+			"spriteDm" : 
+			[
+				0.5,
+				1
+			],
+			"type" : "IMAGE"
+		}
+	}
+}
